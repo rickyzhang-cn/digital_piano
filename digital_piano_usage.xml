@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<DeviceUsageSummary rev="229">
+<DesignStatistics TimeStamp="Mon Jul 01 11:15:31 2013"><group name="NetStatistics">
+<item name="NumNets_Active" rev="229">
+<attrib name="value" value="1616"/></item>
+<item name="NumNets_Gnd" rev="229">
+<attrib name="value" value="1"/></item>
+<item name="NumNets_Vcc" rev="229">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Active_CLKPIN" rev="229">
+<attrib name="value" value="375"/></item>
+<item name="NumNodesOfType_Active_CNTRLPIN" rev="229">
+<attrib name="value" value="346"/></item>
+<item name="NumNodesOfType_Active_DOUBLE" rev="229">
+<attrib name="value" value="2807"/></item>
+<item name="NumNodesOfType_Active_DUMMY" rev="229">
+<attrib name="value" value="4799"/></item>
+<item name="NumNodesOfType_Active_DUMMYESC" rev="229">
+<attrib name="value" value="11"/></item>
+<item name="NumNodesOfType_Active_GLOBAL" rev="229">
+<attrib name="value" value="141"/></item>
+<item name="NumNodesOfType_Active_HFULLHEX" rev="229">
+<attrib name="value" value="9"/></item>
+<item name="NumNodesOfType_Active_HLONG" rev="229">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Active_HUNIHEX" rev="229">
+<attrib name="value" value="85"/></item>
+<item name="NumNodesOfType_Active_INPUT" rev="229">
+<attrib name="value" value="5144"/></item>
+<item name="NumNodesOfType_Active_IOBOUTPUT" rev="229">
+<attrib name="value" value="11"/></item>
+<item name="NumNodesOfType_Active_OMUX" rev="229">
+<attrib name="value" value="1568"/></item>
+<item name="NumNodesOfType_Active_OUTPUT" rev="229">
+<attrib name="value" value="1572"/></item>
+<item name="NumNodesOfType_Active_PREBXBY" rev="229">
+<attrib name="value" value="1088"/></item>
+<item name="NumNodesOfType_Active_VFULLHEX" rev="229">
+<attrib name="value" value="105"/></item>
+<item name="NumNodesOfType_Active_VLONG" rev="229">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Active_VUNIHEX" rev="229">
+<attrib name="value" value="100"/></item>
+<item name="NumNodesOfType_Gnd_DOUBLE" rev="229">
+<attrib name="value" value="6"/></item>
+<item name="NumNodesOfType_Gnd_INPUT" rev="229">
+<attrib name="value" value="17"/></item>
+<item name="NumNodesOfType_Gnd_OMUX" rev="229">
+<attrib name="value" value="10"/></item>
+<item name="NumNodesOfType_Gnd_OUTPUT" rev="229">
+<attrib name="value" value="12"/></item>
+<item name="NumNodesOfType_Gnd_PREBXBY" rev="229">
+<attrib name="value" value="21"/></item>
+</group>
+<group name="SiteStatistics">
+<item name="IBUF-DIFFM" rev="229">
+<attrib name="value" value="4"/></item>
+<item name="IBUF-DIFFMI" rev="229">
+<attrib name="value" value="1"/></item>
+<item name="IBUF-DIFFS" rev="229">
+<attrib name="value" value="1"/></item>
+<item name="IBUF-DIFFSI" rev="229">
+<attrib name="value" value="1"/></item>
+<item name="IOB-DIFFM" rev="229">
+<attrib name="value" value="11"/></item>
+<item name="IOB-DIFFS" rev="229">
+<attrib name="value" value="10"/></item>
+<item name="SLICEL-SLICEM" rev="229">
+<attrib name="value" value="379"/></item>
+</group>
+<group name="MiscellaneousStatistics">
+<item name="AGG_BONDED_IO" rev="228">
+<attrib name="value" value="35"/></item>
+<item name="AGG_IO" rev="228">
+<attrib name="value" value="35"/></item>
+<item name="AGG_SLICE" rev="228">
+<attrib name="value" value="827"/></item>
+<item name="NUM_4_INPUT_LUT" rev="228">
+<attrib name="value" value="1528"/></item>
+<item name="NUM_BONDED_IBUF" rev="228">
+<attrib name="value" value="12"/></item>
+<item name="NUM_BONDED_IOB" rev="228">
+<attrib name="value" value="23"/></item>
+<item name="NUM_BUFGMUX" rev="228">
+<attrib name="value" value="6"/></item>
+<item name="NUM_CYMUX" rev="228">
+<attrib name="value" value="289"/></item>
+<item name="NUM_LUT_RT" rev="228">
+<attrib name="value" value="208"/></item>
+<item name="NUM_RAM32" rev="228">
+<attrib name="value" value="56"/></item>
+<item name="NUM_SLICEL" rev="228">
+<attrib name="value" value="797"/></item>
+<item name="NUM_SLICEM" rev="228">
+<attrib name="value" value="30"/></item>
+<item name="NUM_SLICE_FF" rev="228">
+<attrib name="value" value="475"/></item>
+<item name="NUM_XOR" rev="228">
+<attrib name="value" value="216"/></item>
+</group>
+</DesignStatistics>
+<DeviceUsage TimeStamp="Mon Jul 01 11:15:31 2013"><group name="SiteSummary">
+<item name="BUFGMUX" rev="229">
+<attrib name="total" value="1000000"/><attrib name="used" value="6"/></item>
+<item name="BUFGMUX_GCLKMUX" rev="229">
+<attrib name="total" value="1000000"/><attrib name="used" value="6"/></item>
+<item name="BUFGMUX_GCLK_BUFFER" rev="229">
+<attrib name="total" value="1000000"/><attrib name="used" value="6"/></item>
+<item name="IBUF" rev="229">
+<attrib name="total" value="1000000"/><attrib name="used" value="12"/></item>
+<item name="IBUF_INBUF" rev="229">
+<attrib name="total" value="1000000"/><attrib name="used" value="12"/></item>
+<item name="IBUF_PAD" rev="229">
+<attrib name="total" value="1000000"/><attrib name="used" value="12"/></item>
+<item name="IOB" rev="229">
+<attrib name="total" value="1000000"/><attrib name="used" value="23"/></item>
+<item name="IOB_OUTBUF" rev="229">
+<attrib name="total" value="1000000"/><attrib name="used" value="23"/></item>
+<item name="IOB_PAD" rev="229">
+<attrib name="total" value="1000000"/><attrib name="used" value="23"/></item>
+<item name="SLICEL" rev="229">
+<attrib name="total" value="1000000"/><attrib name="used" value="797"/></item>
+<item name="SLICEL_C1VDD" rev="229">
+<attrib name="total" value="1000000"/><attrib name="used" value="25"/></item>
+<item name="SLICEL_C2VDD" rev="229">
+<attrib name="total" value="1000000"/><attrib name="used" value="28"/></item>
+<item name="SLICEL_CYMUXF" rev="229">
+<attrib name="total" value="1000000"/><attrib name="used" value="154"/></item>
+<item name="SLICEL_CYMUXG" rev="229">
+<attrib name="total" value="1000000"/><attrib name="used" value="135"/></item>
+<item name="SLICEL_F" rev="229">
+<attrib name="total" value="1000000"/><attrib name="used" value="731"/></item>
+<item name="SLICEL_F5MUX" rev="229">
+<attrib name="total" value="1000000"/><attrib name="used" value="69"/></item>
+<item name="SLICEL_F6MUX" rev="229">
+<attrib name="total" value="1000000"/><attrib name="used" value="4"/></item>
+<item name="SLICEL_FFX" rev="229">
+<attrib name="total" value="1000000"/><attrib name="used" value="256"/></item>
+<item name="SLICEL_FFY" rev="229">
+<attrib name="total" value="1000000"/><attrib name="used" value="219"/></item>
+<item name="SLICEL_G" rev="229">
+<attrib name="total" value="1000000"/><attrib name="used" value="737"/></item>
+<item name="SLICEL_GNDF" rev="229">
+<attrib name="total" value="1000000"/><attrib name="used" value="129"/></item>
+<item name="SLICEL_GNDG" rev="229">
+<attrib name="total" value="1000000"/><attrib name="used" value="107"/></item>
+<item name="SLICEL_XORF" rev="229">
+<attrib name="total" value="1000000"/><attrib name="used" value="108"/></item>
+<item name="SLICEL_XORG" rev="229">
+<attrib name="total" value="1000000"/><attrib name="used" value="108"/></item>
+<item name="SLICEM" rev="229">
+<attrib name="total" value="1000000"/><attrib name="used" value="30"/></item>
+<item name="SLICEM_F" rev="229">
+<attrib name="total" value="1000000"/><attrib name="used" value="30"/></item>
+<item name="SLICEM_F5MUX" rev="229">
+<attrib name="total" value="1000000"/><attrib name="used" value="30"/></item>
+<item name="SLICEM_F6MUX" rev="229">
+<attrib name="total" value="1000000"/><attrib name="used" value="2"/></item>
+<item name="SLICEM_G" rev="229">
+<attrib name="total" value="1000000"/><attrib name="used" value="30"/></item>
+<item name="SLICEM_WSGEN" rev="229">
+<attrib name="total" value="1000000"/><attrib name="used" value="28"/></item>
+</group>
+</DeviceUsage>
+<ReportConfigData TimeStamp="Mon Jul 01 11:15:31 2013"><group name="SLICEL_CYMUXF">
+<item name="0" rev="229">
+<attrib name="0" value="154"/><attrib name="0_INV" value="0"/></item>
+<item name="1" rev="229">
+<attrib name="1_INV" value="0"/><attrib name="1" value="154"/></item>
+</group>
+<group name="SLICEL_CYMUXG">
+<item name="0" rev="229">
+<attrib name="0" value="135"/><attrib name="0_INV" value="0"/></item>
+</group>
+<group name="IBUF_PAD">
+<item name="IOATTRBOX" rev="229">
+<attrib name="LVCMOS25" value="12"/></item>
+</group>
+<group name="SLICEM_F">
+<item name="DI" rev="229">
+<attrib name="DI" value="28"/><attrib name="DI_INV" value="0"/></item>
+<item name="LUT_OR_MEM" rev="229">
+<attrib name="LUT" value="2"/><attrib name="RAM" value="28"/></item>
+</group>
+<group name="SLICEM_G">
+<item name="DI" rev="229">
+<attrib name="DI" value="28"/><attrib name="DI_INV" value="0"/></item>
+<item name="LUT_OR_MEM" rev="229">
+<attrib name="LUT" value="2"/><attrib name="RAM" value="28"/></item>
+</group>
+<group name="SLICEM_F6MUX">
+<item name="S0" rev="229">
+<attrib name="S0" value="2"/><attrib name="S0_INV" value="0"/></item>
+</group>
+<group name="SLICEL">
+<item name="BX" rev="229">
+<attrib name="BX_INV" value="7"/><attrib name="BX" value="95"/></item>
+<item name="BY" rev="229">
+<attrib name="BY" value="36"/><attrib name="BY_INV" value="17"/></item>
+<item name="CE" rev="229">
+<attrib name="CE" value="44"/><attrib name="CE_INV" value="0"/></item>
+<item name="CIN" rev="229">
+<attrib name="CIN_INV" value="0"/><attrib name="CIN" value="132"/></item>
+<item name="CLK" rev="229">
+<attrib name="CLK" value="345"/><attrib name="CLK_INV" value="2"/></item>
+<item name="SR" rev="229">
+<attrib name="SR" value="251"/><attrib name="SR_INV" value="23"/></item>
+</group>
+<group name="SLICEM">
+<item name="BX" rev="229">
+<attrib name="BX_INV" value="0"/><attrib name="BX" value="30"/></item>
+<item name="BY" rev="229">
+<attrib name="BY" value="30"/><attrib name="BY_INV" value="0"/></item>
+<item name="CLK" rev="229">
+<attrib name="CLK" value="28"/><attrib name="CLK_INV" value="0"/></item>
+<item name="SR" rev="229">
+<attrib name="SR" value="28"/><attrib name="SR_INV" value="0"/></item>
+</group>
+<group name="SLICEL_F6MUX">
+<item name="S0" rev="229">
+<attrib name="S0" value="4"/><attrib name="S0_INV" value="0"/></item>
+</group>
+<group name="IOB_OFF1">
+<item name="CK" rev="6">
+<attrib name="CK" value="1"/><attrib name="CK_INV" value="0"/></item>
+<item name="D" rev="6">
+<attrib name="D" value="1"/><attrib name="D_INV" value="0"/></item>
+<item name="LATCH_OR_FF" rev="6">
+<attrib name="FF" value="1"/></item>
+<item name="OFF1_INIT_ATTR" rev="6">
+<attrib name="INIT0" value="1"/></item>
+</group>
+<group name="IOB_OUTBUF">
+<item name="IN" rev="229">
+<attrib name="IN_INV" value="0"/><attrib name="IN" value="23"/></item>
+</group>
+<group name="SLICEM_F5MUX">
+<item name="S0" rev="229">
+<attrib name="S0" value="30"/><attrib name="S0_INV" value="0"/></item>
+</group>
+<group name="SLICEL_FFX">
+<item name="CE" rev="229">
+<attrib name="CE" value="25"/><attrib name="CE_INV" value="0"/></item>
+<item name="CK" rev="229">
+<attrib name="CK" value="256"/><attrib name="CK_INV" value="0"/></item>
+<item name="D" rev="229">
+<attrib name="D" value="249"/><attrib name="D_INV" value="7"/></item>
+<item name="FFX_INIT_ATTR" rev="229">
+<attrib name="INIT0" value="165"/><attrib name="INIT1" value="91"/></item>
+<item name="FFX_SR_ATTR" rev="229">
+<attrib name="SRLOW" value="167"/><attrib name="SRHIGH" value="89"/></item>
+<item name="LATCH_OR_FF" rev="229">
+<attrib name="FF" value="256"/></item>
+<item name="REV" rev="229">
+<attrib name="REV_INV" value="0"/><attrib name="REV" value="1"/></item>
+<item name="SR" rev="229">
+<attrib name="SR" value="193"/><attrib name="SR_INV" value="20"/></item>
+<item name="SYNC_ATTR" rev="229">
+<attrib name="ASYNC" value="60"/><attrib name="SYNC" value="196"/></item>
+</group>
+<group name="SLICEL_XORF">
+<item name="1" rev="229">
+<attrib name="1_INV" value="0"/><attrib name="1" value="108"/></item>
+</group>
+<group name="SLICEL_FFY">
+<item name="CE" rev="229">
+<attrib name="CE" value="37"/><attrib name="CE_INV" value="0"/></item>
+<item name="CK" rev="229">
+<attrib name="CK" value="217"/><attrib name="CK_INV" value="2"/></item>
+<item name="D" rev="229">
+<attrib name="D" value="202"/><attrib name="D_INV" value="17"/></item>
+<item name="FFY_INIT_ATTR" rev="229">
+<attrib name="INIT0" value="173"/><attrib name="INIT1" value="46"/></item>
+<item name="FFY_SR_ATTR" rev="229">
+<attrib name="SRLOW" value="174"/><attrib name="SRHIGH" value="45"/></item>
+<item name="LATCH_OR_FF" rev="229">
+<attrib name="FF" value="219"/></item>
+<item name="REV" rev="229">
+<attrib name="REV_INV" value="0"/><attrib name="REV" value="9"/></item>
+<item name="SR" rev="229">
+<attrib name="SR" value="159"/><attrib name="SR_INV" value="16"/></item>
+<item name="SYNC_ATTR" rev="229">
+<attrib name="ASYNC" value="58"/><attrib name="SYNC" value="161"/></item>
+</group>
+<group name="BUFGMUX_GCLKMUX">
+<item name="DISABLE_ATTR" rev="229">
+<attrib name="LOW" value="6"/></item>
+<item name="S" rev="229">
+<attrib name="S_INV" value="6"/><attrib name="S" value="0"/></item>
+</group>
+<group name="SLICEL_F5MUX">
+<item name="S0" rev="229">
+<attrib name="S0" value="69"/><attrib name="S0_INV" value="0"/></item>
+</group>
+<group name="SLICEM_WSGEN">
+<item name="CK" rev="229">
+<attrib name="CK" value="28"/><attrib name="CK_INV" value="0"/></item>
+<item name="WE" rev="229">
+<attrib name="WE_INV" value="0"/><attrib name="WE" value="28"/></item>
+<item name="WE0" rev="229">
+<attrib name="WE0" value="28"/><attrib name="WE0_INV" value="0"/></item>
+</group>
+<group name="SLICEM_FFX">
+<item name="CK" rev="39">
+<attrib name="CK" value="1"/><attrib name="CK_INV" value="0"/></item>
+<item name="D" rev="39">
+<attrib name="D" value="1"/><attrib name="D_INV" value="0"/></item>
+<item name="FFX_INIT_ATTR" rev="39">
+<attrib name="INIT0" value="1"/></item>
+<item name="FFX_SR_ATTR" rev="39">
+<attrib name="SRLOW" value="1"/></item>
+<item name="LATCH_OR_FF" rev="39">
+<attrib name="FF" value="1"/></item>
+<item name="SYNC_ATTR" rev="39">
+<attrib name="ASYNC" value="1"/></item>
+</group>
+<group name="SLICEM_FFY">
+<item name="CK" rev="39">
+<attrib name="CK" value="1"/><attrib name="CK_INV" value="0"/></item>
+<item name="D" rev="39">
+<attrib name="D" value="1"/><attrib name="D_INV" value="0"/></item>
+<item name="FFY_INIT_ATTR" rev="39">
+<attrib name="INIT0" value="1"/></item>
+<item name="FFY_SR_ATTR" rev="39">
+<attrib name="SRLOW" value="1"/></item>
+<item name="LATCH_OR_FF" rev="39">
+<attrib name="FF" value="1"/></item>
+<item name="SYNC_ATTR" rev="39">
+<attrib name="ASYNC" value="1"/></item>
+</group>
+<group name="IOB_PAD">
+<item name="DRIVEATTRBOX" rev="229">
+<attrib name="12" value="23"/></item>
+<item name="IOATTRBOX" rev="229">
+<attrib name="LVCMOS25" value="23"/></item>
+<item name="SLEW" rev="229">
+<attrib name="SLOW" value="23"/></item>
+</group>
+<group name="IOB">
+<item name="O1" rev="229">
+<attrib name="O1_INV" value="0"/><attrib name="O1" value="23"/></item>
+</group>
+<group name="BUFGMUX">
+<item name="S" rev="229">
+<attrib name="S_INV" value="6"/><attrib name="S" value="0"/></item>
+</group>
+</ReportConfigData>
+<ReportPinData TimeStamp="Mon Jul 01 11:15:31 2013"><group name="SLICEL_CYMUXF">
+<item name="0" rev="229">
+<attrib name="value" value="154"/></item>
+<item name="1" rev="229">
+<attrib name="value" value="154"/></item>
+<item name="OUT" rev="229">
+<attrib name="value" value="154"/></item>
+<item name="S0" rev="229">
+<attrib name="value" value="154"/></item>
+</group>
+<group name="SLICEL_CYMUXG">
+<item name="0" rev="229">
+<attrib name="value" value="135"/></item>
+<item name="1" rev="229">
+<attrib name="value" value="135"/></item>
+<item name="OUT" rev="229">
+<attrib name="value" value="135"/></item>
+<item name="S0" rev="229">
+<attrib name="value" value="135"/></item>
+</group>
+<group name="IBUF_PAD">
+<item name="PAD" rev="229">
+<attrib name="value" value="12"/></item>
+</group>
+<group name="IBUF_INBUF">
+<item name="IN" rev="229">
+<attrib name="value" value="12"/></item>
+<item name="OUT" rev="229">
+<attrib name="value" value="12"/></item>
+</group>
+<group name="SLICEM_F">
+<item name="A1" rev="229">
+<attrib name="value" value="30"/></item>
+<item name="A2" rev="229">
+<attrib name="value" value="30"/></item>
+<item name="A3" rev="229">
+<attrib name="value" value="30"/></item>
+<item name="A4" rev="229">
+<attrib name="value" value="28"/></item>
+<item name="D" rev="229">
+<attrib name="value" value="30"/></item>
+<item name="DI" rev="229">
+<attrib name="value" value="28"/></item>
+<item name="WF1" rev="229">
+<attrib name="value" value="28"/></item>
+<item name="WF2" rev="229">
+<attrib name="value" value="28"/></item>
+<item name="WF3" rev="229">
+<attrib name="value" value="28"/></item>
+<item name="WF4" rev="229">
+<attrib name="value" value="28"/></item>
+<item name="WS" rev="229">
+<attrib name="value" value="28"/></item>
+</group>
+<group name="SLICEM_G">
+<item name="A1" rev="229">
+<attrib name="value" value="30"/></item>
+<item name="A2" rev="229">
+<attrib name="value" value="30"/></item>
+<item name="A3" rev="229">
+<attrib name="value" value="30"/></item>
+<item name="A4" rev="229">
+<attrib name="value" value="28"/></item>
+<item name="D" rev="229">
+<attrib name="value" value="30"/></item>
+<item name="DI" rev="229">
+<attrib name="value" value="28"/></item>
+<item name="WG1" rev="229">
+<attrib name="value" value="28"/></item>
+<item name="WG2" rev="229">
+<attrib name="value" value="28"/></item>
+<item name="WG3" rev="229">
+<attrib name="value" value="28"/></item>
+<item name="WG4" rev="229">
+<attrib name="value" value="28"/></item>
+<item name="WS" rev="229">
+<attrib name="value" value="28"/></item>
+</group>
+<group name="BUFGMUX_GCLK_BUFFER">
+<item name="IN" rev="229">
+<attrib name="value" value="6"/></item>
+<item name="OUT" rev="229">
+<attrib name="value" value="6"/></item>
+</group>
+<group name="SLICEM_F6MUX">
+<item name="0" rev="229">
+<attrib name="value" value="2"/></item>
+<item name="1" rev="229">
+<attrib name="value" value="2"/></item>
+<item name="OUT" rev="229">
+<attrib name="value" value="2"/></item>
+<item name="S0" rev="229">
+<attrib name="value" value="2"/></item>
+</group>
+<group name="SLICEL">
+<item name="BX" rev="229">
+<attrib name="value" value="102"/></item>
+<item name="BY" rev="229">
+<attrib name="value" value="53"/></item>
+<item name="CE" rev="229">
+<attrib name="value" value="44"/></item>
+<item name="CIN" rev="229">
+<attrib name="value" value="132"/></item>
+<item name="CLK" rev="229">
+<attrib name="value" value="347"/></item>
+<item name="COUT" rev="229">
+<attrib name="value" value="135"/></item>
+<item name="F1" rev="229">
+<attrib name="value" value="728"/></item>
+<item name="F2" rev="229">
+<attrib name="value" value="604"/></item>
+<item name="F3" rev="229">
+<attrib name="value" value="545"/></item>
+<item name="F4" rev="229">
+<attrib name="value" value="414"/></item>
+<item name="F5" rev="229">
+<attrib name="value" value="8"/></item>
+<item name="FX" rev="229">
+<attrib name="value" value="1"/></item>
+<item name="FXINA" rev="229">
+<attrib name="value" value="4"/></item>
+<item name="FXINB" rev="229">
+<attrib name="value" value="4"/></item>
+<item name="G1" rev="229">
+<attrib name="value" value="735"/></item>
+<item name="G2" rev="229">
+<attrib name="value" value="619"/></item>
+<item name="G3" rev="229">
+<attrib name="value" value="531"/></item>
+<item name="G4" rev="229">
+<attrib name="value" value="376"/></item>
+<item name="SR" rev="229">
+<attrib name="value" value="274"/></item>
+<item name="X" rev="229">
+<attrib name="value" value="439"/></item>
+<item name="XB" rev="229">
+<attrib name="value" value="7"/></item>
+<item name="XQ" rev="229">
+<attrib name="value" value="256"/></item>
+<item name="Y" rev="229">
+<attrib name="value" value="466"/></item>
+<item name="YQ" rev="229">
+<attrib name="value" value="219"/></item>
+</group>
+<group name="SLICEM">
+<item name="BX" rev="229">
+<attrib name="value" value="30"/></item>
+<item name="BY" rev="229">
+<attrib name="value" value="30"/></item>
+<item name="CLK" rev="229">
+<attrib name="value" value="28"/></item>
+<item name="F1" rev="229">
+<attrib name="value" value="30"/></item>
+<item name="F2" rev="229">
+<attrib name="value" value="30"/></item>
+<item name="F3" rev="229">
+<attrib name="value" value="30"/></item>
+<item name="F4" rev="229">
+<attrib name="value" value="28"/></item>
+<item name="F5" rev="229">
+<attrib name="value" value="2"/></item>
+<item name="FX" rev="229">
+<attrib name="value" value="1"/></item>
+<item name="FXINA" rev="229">
+<attrib name="value" value="2"/></item>
+<item name="FXINB" rev="229">
+<attrib name="value" value="2"/></item>
+<item name="G1" rev="229">
+<attrib name="value" value="30"/></item>
+<item name="G2" rev="229">
+<attrib name="value" value="30"/></item>
+<item name="G3" rev="229">
+<attrib name="value" value="30"/></item>
+<item name="G4" rev="229">
+<attrib name="value" value="28"/></item>
+<item name="SR" rev="229">
+<attrib name="value" value="28"/></item>
+<item name="X" rev="229">
+<attrib name="value" value="28"/></item>
+<item name="Y" rev="229">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="SLICEL_F6MUX">
+<item name="0" rev="229">
+<attrib name="value" value="4"/></item>
+<item name="1" rev="229">
+<attrib name="value" value="4"/></item>
+<item name="OUT" rev="229">
+<attrib name="value" value="4"/></item>
+<item name="S0" rev="229">
+<attrib name="value" value="4"/></item>
+</group>
+<group name="IOB_OFF1">
+<item name="CK" rev="6">
+<attrib name="value" value="1"/></item>
+<item name="D" rev="6">
+<attrib name="value" value="1"/></item>
+<item name="Q" rev="6">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="IOB_OUTBUF">
+<item name="IN" rev="229">
+<attrib name="value" value="23"/></item>
+<item name="OUT" rev="229">
+<attrib name="value" value="23"/></item>
+</group>
+<group name="IBUF">
+<item name="I" rev="229">
+<attrib name="value" value="12"/></item>
+<item name="PAD" rev="229">
+<attrib name="value" value="12"/></item>
+</group>
+<group name="SLICEM_F5MUX">
+<item name="F" rev="229">
+<attrib name="value" value="30"/></item>
+<item name="G" rev="229">
+<attrib name="value" value="30"/></item>
+<item name="OUT" rev="229">
+<attrib name="value" value="30"/></item>
+<item name="S0" rev="229">
+<attrib name="value" value="30"/></item>
+</group>
+<group name="SLICEL_C2VDD">
+<item name="1" rev="229">
+<attrib name="value" value="28"/></item>
+</group>
+<group name="SLICEL_XORF">
+<item name="0" rev="229">
+<attrib name="value" value="108"/></item>
+<item name="1" rev="229">
+<attrib name="value" value="108"/></item>
+<item name="O" rev="229">
+<attrib name="value" value="108"/></item>
+</group>
+<group name="SLICEL_FFX">
+<item name="CE" rev="229">
+<attrib name="value" value="25"/></item>
+<item name="CK" rev="229">
+<attrib name="value" value="256"/></item>
+<item name="D" rev="229">
+<attrib name="value" value="256"/></item>
+<item name="Q" rev="229">
+<attrib name="value" value="256"/></item>
+<item name="REV" rev="229">
+<attrib name="value" value="1"/></item>
+<item name="SR" rev="229">
+<attrib name="value" value="213"/></item>
+</group>
+<group name="SLICEL_FFY">
+<item name="CE" rev="229">
+<attrib name="value" value="37"/></item>
+<item name="CK" rev="229">
+<attrib name="value" value="219"/></item>
+<item name="D" rev="229">
+<attrib name="value" value="219"/></item>
+<item name="Q" rev="229">
+<attrib name="value" value="219"/></item>
+<item name="REV" rev="229">
+<attrib name="value" value="9"/></item>
+<item name="SR" rev="229">
+<attrib name="value" value="175"/></item>
+</group>
+<group name="SLICEL_XORG">
+<item name="0" rev="229">
+<attrib name="value" value="108"/></item>
+<item name="1" rev="229">
+<attrib name="value" value="108"/></item>
+<item name="O" rev="229">
+<attrib name="value" value="108"/></item>
+</group>
+<group name="BUFGMUX_GCLKMUX">
+<item name="I0" rev="229">
+<attrib name="value" value="6"/></item>
+<item name="OUT" rev="229">
+<attrib name="value" value="6"/></item>
+<item name="S" rev="229">
+<attrib name="value" value="6"/></item>
+</group>
+<group name="SLICEL_F5MUX">
+<item name="F" rev="229">
+<attrib name="value" value="69"/></item>
+<item name="G" rev="229">
+<attrib name="value" value="69"/></item>
+<item name="OUT" rev="229">
+<attrib name="value" value="69"/></item>
+<item name="S0" rev="229">
+<attrib name="value" value="69"/></item>
+</group>
+<group name="SLICEM_WSGEN">
+<item name="CK" rev="229">
+<attrib name="value" value="28"/></item>
+<item name="WE" rev="229">
+<attrib name="value" value="28"/></item>
+<item name="WE0" rev="229">
+<attrib name="value" value="28"/></item>
+<item name="WSF" rev="229">
+<attrib name="value" value="28"/></item>
+<item name="WSG" rev="229">
+<attrib name="value" value="28"/></item>
+</group>
+<group name="SLICEM_FFX">
+<item name="CK" rev="39">
+<attrib name="value" value="1"/></item>
+<item name="D" rev="39">
+<attrib name="value" value="1"/></item>
+<item name="Q" rev="39">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="SLICEM_FFY">
+<item name="CK" rev="39">
+<attrib name="value" value="1"/></item>
+<item name="D" rev="39">
+<attrib name="value" value="1"/></item>
+<item name="Q" rev="39">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="IOB_PAD">
+<item name="PAD" rev="229">
+<attrib name="value" value="23"/></item>
+</group>
+<group name="IOB">
+<item name="O1" rev="229">
+<attrib name="value" value="23"/></item>
+<item name="PAD" rev="229">
+<attrib name="value" value="23"/></item>
+</group>
+<group name="SLICEL_C1VDD">
+<item name="1" rev="229">
+<attrib name="value" value="25"/></item>
+</group>
+<group name="BUFGMUX">
+<item name="I0" rev="229">
+<attrib name="value" value="6"/></item>
+<item name="O" rev="229">
+<attrib name="value" value="6"/></item>
+<item name="S" rev="229">
+<attrib name="value" value="6"/></item>
+</group>
+<group name="SLICEL_F">
+<item name="A1" rev="229">
+<attrib name="value" value="728"/></item>
+<item name="A2" rev="229">
+<attrib name="value" value="604"/></item>
+<item name="A3" rev="229">
+<attrib name="value" value="545"/></item>
+<item name="A4" rev="229">
+<attrib name="value" value="414"/></item>
+<item name="D" rev="229">
+<attrib name="value" value="731"/></item>
+</group>
+<group name="SLICEL_G">
+<item name="A1" rev="229">
+<attrib name="value" value="735"/></item>
+<item name="A2" rev="229">
+<attrib name="value" value="619"/></item>
+<item name="A3" rev="229">
+<attrib name="value" value="531"/></item>
+<item name="A4" rev="229">
+<attrib name="value" value="376"/></item>
+<item name="D" rev="229">
+<attrib name="value" value="737"/></item>
+</group>
+<group name="SLICEL_GNDF">
+<item name="0" rev="229">
+<attrib name="value" value="129"/></item>
+</group>
+<group name="SLICEL_GNDG">
+<item name="0" rev="229">
+<attrib name="value" value="107"/></item>
+</group>
+</ReportPinData>
+<CmdHistory>
+</CmdHistory>
+</DeviceUsageSummary>

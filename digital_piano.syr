@@ -1,0 +1,1184 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: digital_piano.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "digital_piano.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "digital_piano"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : digital_piano
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "vga_char.v" in library work
+Compiling verilog file "recordmode.v" in library work
+Module <vga_char> compiled
+Compiling verilog file "DD.v" in library work
+Module <recordmode> compiled
+Compiling verilog file "VGA.v" in library work
+Module <DD> compiled
+Compiling verilog file "song3.v" in library work
+Module <VGA> compiled
+Compiling verilog file "song2.v" in library work
+Module <song3> compiled
+Compiling verilog file "song1.v" in library work
+Module <song2> compiled
+Compiling verilog file "keyboard.v" in library work
+Module <song1> compiled
+Compiling verilog file "display.v" in library work
+Module <keyboard> compiled
+Compiling verilog file "song.v" in library work
+Module <display> compiled
+Compiling verilog file "piano.v" in library work
+Module <song> compiled
+Compiling verilog file "digital_piano.v" in library work
+Module <piano> compiled
+Module <digital_piano> compiled
+No errors in compilation
+Analysis of file <"digital_piano.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <digital_piano> in library <work>.
+
+Analyzing hierarchy for module <piano> in library <work>.
+
+Analyzing hierarchy for module <song> in library <work>.
+
+Analyzing hierarchy for module <keyboard> in library <work>.
+
+Analyzing hierarchy for module <display> in library <work>.
+
+Analyzing hierarchy for module <VGA> in library <work>.
+
+Analyzing hierarchy for module <song1> in library <work>.
+
+Analyzing hierarchy for module <song2> in library <work>.
+
+Analyzing hierarchy for module <song3> in library <work>.
+
+Analyzing hierarchy for module <recordmode> in library <work>.
+
+Analyzing hierarchy for module <DD> in library <work>.
+
+Analyzing hierarchy for module <vga_char> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <digital_piano>.
+Module <digital_piano> is correct for synthesis.
+ 
+Analyzing module <piano> in library <work>.
+Module <piano> is correct for synthesis.
+ 
+Analyzing module <keyboard> in library <work>.
+Module <keyboard> is correct for synthesis.
+ 
+Analyzing module <recordmode> in library <work>.
+WARNING:Xst:905 - "recordmode.v" line 61: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <mem>
+Module <recordmode> is correct for synthesis.
+ 
+Analyzing module <DD> in library <work>.
+Module <DD> is correct for synthesis.
+ 
+Analyzing module <display> in library <work>.
+Module <display> is correct for synthesis.
+ 
+Analyzing module <VGA> in library <work>.
+Module <VGA> is correct for synthesis.
+ 
+Analyzing module <vga_char> in library <work>.
+WARNING:Xst:2725 - "vga_char.v" line 247: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "vga_char.v" line 248: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "vga_char.v" line 249: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "vga_char.v" line 250: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "vga_char.v" line 251: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "vga_char.v" line 252: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "vga_char.v" line 253: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "vga_char.v" line 254: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "vga_char.v" line 255: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "vga_char.v" line 256: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "vga_char.v" line 257: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "vga_char.v" line 258: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "vga_char.v" line 259: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "vga_char.v" line 260: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "vga_char.v" line 261: Size mismatch between case item and case selector.
+WARNING:Xst:2725 - "vga_char.v" line 262: Size mismatch between case item and case selector.
+Module <vga_char> is correct for synthesis.
+ 
+Analyzing module <song> in library <work>.
+Module <song> is correct for synthesis.
+ 
+Analyzing module <song1> in library <work>.
+Module <song1> is correct for synthesis.
+ 
+Analyzing module <song2> in library <work>.
+Module <song2> is correct for synthesis.
+ 
+Analyzing module <song3> in library <work>.
+Module <song3> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+INFO:Xst:2679 - Register <high> in unit <song2> has a constant value of 0000 during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <display>.
+    Related source file is "display.v".
+    Found 4-bit register for signal <anodes_r>.
+    Found 7-bit register for signal <cathodes_r>.
+    Found 16-bit up counter for signal <count>.
+    Found 16-bit comparator less for signal <count$cmp_lt0000> created at line 46.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  11 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <display> synthesized.
+
+
+Synthesizing Unit <recordmode>.
+    Related source file is "recordmode.v".
+WARNING:Xst:647 - Input <replay> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 128x8-bit single-port RAM <Mram_mem> for signal <mem>.
+    Found 1-bit register for signal <clk_16Hz>.
+    Found 7-bit up counter for signal <count>.
+    Found 26-bit up counter for signal <count_for_16Hz>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   2 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <recordmode> synthesized.
+
+
+Synthesizing Unit <DD>.
+    Related source file is "DD.v".
+    Found 1-bit register for signal <Q>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <DD> synthesized.
+
+
+Synthesizing Unit <vga_char>.
+    Related source file is "vga_char.v".
+    Found 1-bit 24-to-1 multiplexer for signal <$varindex0000> created at line 294.
+    Found 5-bit up counter for signal <c>.
+    Found 5-bit comparator less for signal <c$cmp_lt0000> created at line 234.
+    Found 24-bit register for signal <char_line>.
+    Found 1-bit register for signal <clk_25m>.
+    Found 5-bit up counter for signal <col>.
+    Found 5-bit comparator greatequal for signal <col$cmp_ge0000> created at line 197.
+    Found 10-bit comparator greater for signal <col$cmp_gt0000> created at line 193.
+    Found 10-bit comparator lessequal for signal <col$cmp_le0000> created at line 193.
+    Found 1-bit register for signal <D>.
+    Found 1-bit register for signal <hsync_r>.
+    Found 5-bit down counter for signal <r>.
+    Found 5-bit register for signal <row>.
+    Found 5-bit adder for signal <row$addsub0000> created at line 216.
+    Found 5-bit comparator greatequal for signal <row$cmp_ge0000> created at line 215.
+    Found 10-bit comparator greatequal for signal <row$cmp_ge0001> created at line 213.
+    Found 10-bit comparator less for signal <row$cmp_lt0000> created at line 213.
+    Found 5-bit comparator less for signal <row$cmp_lt0001> created at line 215.
+    Found 1-bit register for signal <valid_r>.
+    Found 1-bit register for signal <valid_yr>.
+    Found 8-bit register for signal <vga_rgb>.
+    Found 1-bit register for signal <vsync_r>.
+    Found 10-bit up counter for signal <x_cnt>.
+    Found 10-bit subtractor for signal <x_dis>.
+    Found 10-bit up counter for signal <y_cnt>.
+    Found 10-bit subtractor for signal <y_dis>.
+    Summary:
+	inferred   5 Counter(s).
+	inferred  43 D-type flip-flop(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred   8 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <vga_char> synthesized.
+
+
+Synthesizing Unit <song1>.
+    Related source file is "song1.v".
+    Found 1-bit register for signal <beep_r>.
+    Found 16-bit up counter for signal <count>.
+    Found 16-bit comparator equal for signal <count$cmp_eq0000> created at line 40.
+    Found 4-bit register for signal <high>.
+    Found 4-bit register for signal <low>.
+    Found 4-bit register for signal <med>.
+    Found 8-bit adder for signal <old_state_2$addsub0000> created at line 65.
+    Found 16-bit register for signal <origin>.
+    Found 8-bit register for signal <state>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  37 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <song1> synthesized.
+
+
+Synthesizing Unit <song2>.
+    Related source file is "song2.v".
+    Found 1-bit register for signal <beep_r>.
+    Found 16-bit up counter for signal <count>.
+    Found 16-bit comparator equal for signal <count$cmp_eq0000> created at line 40.
+    Found 4-bit register for signal <low>.
+    Found 4-bit register for signal <med>.
+    Found 8-bit adder for signal <old_state_4$addsub0000> created at line 71.
+    Found 16-bit register for signal <origin>.
+    Found 8-bit register for signal <state>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  33 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <song2> synthesized.
+
+
+Synthesizing Unit <song3>.
+    Related source file is "song3.v".
+    Found 1-bit register for signal <beep_r>.
+    Found 16-bit up counter for signal <count>.
+    Found 16-bit comparator equal for signal <count$cmp_eq0000> created at line 39.
+    Found 4-bit register for signal <high>.
+    Found 4-bit register for signal <low>.
+    Found 4-bit register for signal <med>.
+    Found 8-bit adder for signal <old_state_6$addsub0000> created at line 79.
+    Found 16-bit register for signal <origin>.
+    Found 8-bit register for signal <state>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  37 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <song3> synthesized.
+
+
+Synthesizing Unit <song>.
+    Related source file is "song.v".
+    Found 1-bit 4-to-1 multiplexer for signal <clk>.
+    Found 1-bit register for signal <clk_3Hz>.
+    Found 1-bit register for signal <clk_4Hz>.
+    Found 1-bit register for signal <clk_5Hz>.
+    Found 26-bit up counter for signal <cnt1>.
+    Found 26-bit comparator less for signal <cnt1$cmp_lt0000> created at line 63.
+    Found 26-bit up counter for signal <cnt2>.
+    Found 26-bit comparator less for signal <cnt2$cmp_lt0000> created at line 74.
+    Found 26-bit up counter for signal <cnt3>.
+    Found 26-bit comparator less for signal <cnt3$cmp_lt0000> created at line 85.
+    Found 2-bit up counter for signal <flag>.
+    Summary:
+	inferred   4 Counter(s).
+	inferred   3 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <song> synthesized.
+
+
+Synthesizing Unit <keyboard>.
+    Related source file is "keyboard.v".
+WARNING:Xst:646 - Signal <tmp<11:9>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <tmp<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 4-bit up counter for signal <counter>.
+    Found 1-bit register for signal <now_kbclk>.
+    Found 1-bit register for signal <pre_kbclk>.
+    Found 1-bit register for signal <started>.
+    Found 4-bit comparator greater for signal <started$cmp_gt0000> created at line 81.
+    Found 4-bit comparator less for signal <started$cmp_lt0000> created at line 81.
+    Found 8-bit register for signal <tmp<8:1>>.
+    Found 1-bit register for signal <ZHJS>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  12 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <keyboard> synthesized.
+
+
+Synthesizing Unit <VGA>.
+    Related source file is "VGA.v".
+    Register <char_line1> equivalent to <char_line0> has been removed
+    Register <char_line2> equivalent to <char_line0> has been removed
+    Register <char_line6> equivalent to <char_line5> has been removed
+    Register <char_linef> equivalent to <char_linee> has been removed
+    Found 24-bit register for signal <char_line0>.
+    Found 24-bit register for signal <char_line3>.
+    Found 24-bit register for signal <char_line4>.
+    Found 24-bit register for signal <char_line5>.
+    Found 24-bit register for signal <char_line7>.
+    Found 24-bit register for signal <char_line8>.
+    Found 24-bit register for signal <char_line9>.
+    Found 24-bit register for signal <char_linea>.
+    Found 24-bit register for signal <char_lineb>.
+    Found 24-bit register for signal <char_linec>.
+    Found 24-bit register for signal <char_lined>.
+    Found 24-bit register for signal <char_linee>.
+    Summary:
+	inferred 288 D-type flip-flop(s).
+Unit <VGA> synthesized.
+
+
+Synthesizing Unit <piano>.
+    Related source file is "piano.v".
+WARNING:Xst:647 - Input <start> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 32x14-bit ROM for signal <origin$mux0001>.
+    Found 1-bit register for signal <beep_r>.
+    Found 14-bit up counter for signal <count>.
+    Found 14-bit register for signal <origin>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred  15 D-type flip-flop(s).
+Unit <piano> synthesized.
+
+
+Synthesizing Unit <digital_piano>.
+    Related source file is "digital_piano.v".
+    Found 1-bit register for signal <clk_5MHz>.
+    Found 3-bit up counter for signal <cnt>.
+    Found 3-bit comparator less for signal <cnt$cmp_lt0000> created at line 56.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <digital_piano> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 128x8-bit single-port RAM                             : 1
+# ROMs                                                 : 1
+ 32x14-bit ROM                                         : 1
+# Adders/Subtractors                                   : 6
+ 10-bit subtractor                                     : 2
+ 5-bit adder                                           : 1
+ 8-bit adder                                           : 3
+# Counters                                             : 18
+ 10-bit up counter                                     : 2
+ 14-bit up counter                                     : 1
+ 16-bit up counter                                     : 4
+ 2-bit up counter                                      : 1
+ 26-bit up counter                                     : 4
+ 3-bit up counter                                      : 1
+ 4-bit up counter                                      : 1
+ 5-bit down counter                                    : 1
+ 5-bit up counter                                      : 2
+ 7-bit up counter                                      : 1
+# Registers                                            : 60
+ 1-bit register                                        : 28
+ 14-bit register                                       : 1
+ 16-bit register                                       : 3
+ 24-bit register                                       : 13
+ 4-bit register                                        : 9
+ 5-bit register                                        : 1
+ 7-bit register                                        : 1
+ 8-bit register                                        : 4
+# Comparators                                          : 18
+ 10-bit comparator greatequal                          : 1
+ 10-bit comparator greater                             : 1
+ 10-bit comparator less                                : 1
+ 10-bit comparator lessequal                           : 1
+ 16-bit comparator equal                               : 3
+ 16-bit comparator less                                : 1
+ 26-bit comparator less                                : 3
+ 3-bit comparator less                                 : 1
+ 4-bit comparator greater                              : 1
+ 4-bit comparator less                                 : 1
+ 5-bit comparator greatequal                           : 2
+ 5-bit comparator less                                 : 2
+# Multiplexers                                         : 2
+ 1-bit 24-to-1 multiplexer                             : 1
+ 1-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+INFO:Xst:2261 - The FF/Latch <vga_rgb_0> in Unit <m> is equivalent to the following 7 FFs/Latches, which will be removed : <vga_rgb_1> <vga_rgb_2> <vga_rgb_3> <vga_rgb_4> <vga_rgb_5> <vga_rgb_6> <vga_rgb_7> 
+INFO:Xst:2261 - The FF/Latch <char_line4_0> in Unit <m3> is equivalent to the following 113 FFs/Latches, which will be removed : <char_line4_3> <char_line4_7> <char_line4_11> <char_line4_15> <char_line4_16> <char_line4_20> <char_line4_23> <char_line0_0> <char_line0_3> <char_line0_4> <char_line0_7> <char_line0_8> <char_line0_11> <char_line0_12> <char_line0_15> <char_line0_16> <char_line0_19> <char_line0_20> <char_line0_23> <char_line3_0> <char_line3_3> <char_line3_7> <char_line3_15> <char_line3_20> <char_line8_0> <char_line8_2> <char_line8_3> <char_line8_5> <char_line8_7> <char_line8_10> <char_line8_15> <char_line8_16> <char_line8_23> <char_line5_0> <char_line5_3> <char_line5_4> <char_line5_7> <char_line5_8> <char_line5_11> <char_line5_15> <char_line5_16> <char_line5_20> <char_line5_23> <char_line7_0> <char_line7_1> <char_line7_7> <char_line7_8> <char_line7_16> <char_line7_20> <char_line7_23> <char_lineb_0> <char_lineb_2> <char_lineb_3> <char_lineb_5> <char_lineb_7> <char_lineb_10> <char_lineb_15>
+   <char_lineb_16> <char_lineb_19> <char_lineb_21> <char_lineb_23> <char_line9_0> <char_line9_7> <char_line9_10> <char_line9_15> <char_line9_16> <char_line9_19> <char_line9_21> <char_line9_23> <char_linea_0> <char_linea_2> <char_linea_3> <char_linea_7> <char_linea_15> <char_linea_16> <char_linea_19> <char_linea_21> <char_linea_23> <char_linee_0> <char_linee_1> <char_linee_2> <char_linee_3> <char_linee_4> <char_linee_5> <char_linee_6> <char_linee_7> <char_linee_8> <char_linee_9> <char_linee_10> <char_linee_11> <char_linee_12> <char_linee_13> <char_linee_14> <char_linee_15> <char_linee_16> <char_linee_17> <char_linee_18> <char_linee_19> <char_linee_20> <char_linee_21> <char_linee_22> <char_linee_23> <char_linec_0> <char_linec_2> <char_linec_3> <char_linec_5> <char_linec_7> <char_linec_15> <char_linec_16> <char_linec_19> <char_linec_21> <char_linec_23> <char_lined_7> 
+INFO:Xst:2261 - The FF/Latch <char_line4_1> in Unit <m3> is equivalent to the following 27 FFs/Latches, which will be removed : <char_line4_2> <char_line4_6> <char_line4_10> <char_line4_13> <char_line4_14> <char_line0_1> <char_line0_2> <char_line0_5> <char_line0_6> <char_line0_9> <char_line0_10> <char_line0_13> <char_line0_14> <char_line0_17> <char_line0_18> <char_line0_21> <char_line0_22> <char_line3_1> <char_line3_2> <char_line3_6> <char_line5_1> <char_line5_2> <char_line5_5> <char_line5_6> <char_line5_10> <char_line5_13> <char_line5_14> 
+INFO:Xst:2261 - The FF/Latch <low_1> in Unit <m1> is equivalent to the following 6 FFs/Latches, which will be removed : <low_3> <med_3> <high_0> <high_1> <high_2> <high_3> 
+WARNING:Xst:1710 - FF/Latch <char_line4_1> (without init value) has a constant value of 0 in block <m3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <origin_4> (without init value) has a constant value of 0 in block <m1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <origin_14> (without init value) has a constant value of 0 in block <m1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <origin_15> (without init value) has a constant value of 0 in block <m1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <low_1> (without init value) has a constant value of 0 in block <m1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <origin_15> (without init value) has a constant value of 0 in block <m2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <low_3> (without init value) has a constant value of 0 in block <m2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <med_3> (without init value) has a constant value of 0 in block <m2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <origin_15> (without init value) has a constant value of 0 in block <m3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <high_3> (without init value) has a constant value of 0 in block <m3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2404 -  FFs/Latches <low<3:3>> (without init value) have a constant value of 0 in block <song1>.
+WARNING:Xst:2404 -  FFs/Latches <med<3:3>> (without init value) have a constant value of 0 in block <song1>.
+WARNING:Xst:2404 -  FFs/Latches <high<3:0>> (without init value) have a constant value of 0 in block <song1>.
+
+Synthesizing (advanced) Unit <recordmode>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_mem> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 128-word x 8-bit                    |          |
+    |     clkA           | connected to signal <clk_16Hz>      | rise     |
+    |     weA            | connected to signal <record>        | high     |
+    |     addrA          | connected to signal <count>         |          |
+    |     diA            | connected to signal <ps2_asci>      |          |
+    |     doA            | connected to signal <record_asci>   |          |
+    -----------------------------------------------------------------------
+Unit <recordmode> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 128x8-bit single-port distributed RAM                 : 1
+# ROMs                                                 : 1
+ 32x14-bit ROM                                         : 1
+# Adders/Subtractors                                   : 6
+ 10-bit subtractor                                     : 2
+ 5-bit adder                                           : 1
+ 8-bit adder                                           : 3
+# Counters                                             : 18
+ 10-bit up counter                                     : 2
+ 14-bit up counter                                     : 1
+ 16-bit up counter                                     : 4
+ 2-bit up counter                                      : 1
+ 26-bit up counter                                     : 4
+ 3-bit up counter                                      : 1
+ 4-bit up counter                                      : 1
+ 5-bit down counter                                    : 1
+ 5-bit up counter                                      : 2
+ 7-bit up counter                                      : 1
+# Registers                                            : 476
+ Flip-Flops                                            : 476
+# Comparators                                          : 18
+ 10-bit comparator greatequal                          : 1
+ 10-bit comparator greater                             : 1
+ 10-bit comparator less                                : 1
+ 10-bit comparator lessequal                           : 1
+ 16-bit comparator equal                               : 3
+ 16-bit comparator less                                : 1
+ 26-bit comparator less                                : 3
+ 3-bit comparator less                                 : 1
+ 4-bit comparator greater                              : 1
+ 4-bit comparator less                                 : 1
+ 5-bit comparator greatequal                           : 2
+ 5-bit comparator less                                 : 2
+# Multiplexers                                         : 2
+ 1-bit 24-to-1 multiplexer                             : 1
+ 1-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <origin_4> (without init value) has a constant value of 0 in block <song1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <origin_14> (without init value) has a constant value of 0 in block <song1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <origin_15> (without init value) has a constant value of 0 in block <song1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <low_1> (without init value) has a constant value of 0 in block <song1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <origin_15> (without init value) has a constant value of 0 in block <song2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <low_3> (without init value) has a constant value of 0 in block <song2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <med_3> (without init value) has a constant value of 0 in block <song2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <origin_15> (without init value) has a constant value of 0 in block <song3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <high_3> (without init value) has a constant value of 0 in block <song3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <char_line5_14> (without init value) has a constant value of 0 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line5_13> (without init value) has a constant value of 0 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line5_10> (without init value) has a constant value of 0 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line5_6> (without init value) has a constant value of 0 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line5_5> (without init value) has a constant value of 0 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line5_2> (without init value) has a constant value of 0 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line5_1> (without init value) has a constant value of 0 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line4_14> (without init value) has a constant value of 0 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line4_13> (without init value) has a constant value of 0 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line4_10> (without init value) has a constant value of 0 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line4_6> (without init value) has a constant value of 0 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line4_2> (without init value) has a constant value of 0 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line4_1> (without init value) has a constant value of 0 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line3_6> (without init value) has a constant value of 0 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line3_2> (without init value) has a constant value of 0 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line3_1> (without init value) has a constant value of 0 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line0_22> (without init value) has a constant value of 0 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line0_21> (without init value) has a constant value of 0 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line0_18> (without init value) has a constant value of 0 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line0_17> (without init value) has a constant value of 0 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line0_14> (without init value) has a constant value of 0 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line0_13> (without init value) has a constant value of 0 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line0_10> (without init value) has a constant value of 0 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line0_9> (without init value) has a constant value of 0 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line0_6> (without init value) has a constant value of 0 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line0_5> (without init value) has a constant value of 0 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line0_2> (without init value) has a constant value of 0 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line0_1> (without init value) has a constant value of 0 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <vga_rgb_0> in Unit <vga_char> is equivalent to the following 7 FFs/Latches, which will be removed : <vga_rgb_1> <vga_rgb_2> <vga_rgb_3> <vga_rgb_4> <vga_rgb_5> <vga_rgb_6> <vga_rgb_7> 
+INFO:Xst:2261 - The FF/Latch <low_0> in Unit <song1> is equivalent to the following FF/Latch, which will be removed : <low_2> 
+INFO:Xst:2261 - The FF/Latch <char_linee_0> in Unit <VGA> is equivalent to the following 23 FFs/Latches, which will be removed : <char_linee_1> <char_linee_2> <char_linee_3> <char_linee_4> <char_linee_5> <char_linee_6> <char_linee_7> <char_linee_8> <char_linee_9> <char_linee_10> <char_linee_11> <char_linee_12> <char_linee_13> <char_linee_14> <char_linee_15> <char_linee_16> <char_linee_17> <char_linee_18> <char_linee_19> <char_linee_20> <char_linee_21> <char_linee_22> <char_linee_23> 
+INFO:Xst:2261 - The FF/Latch <char_line0_0> in Unit <VGA> is equivalent to the following 89 FFs/Latches, which will be removed : <char_line0_3> <char_line0_4> <char_line0_7> <char_line0_8> <char_line0_11> <char_line0_12> <char_line0_15> <char_line0_16> <char_line0_19> <char_line0_20> <char_line0_23> <char_line3_0> <char_line3_3> <char_line3_7> <char_line3_15> <char_line3_20> <char_line4_0> <char_line4_3> <char_line4_7> <char_line4_11> <char_line4_15> <char_line4_16> <char_line4_20> <char_line4_23> <char_line8_0> <char_line8_2> <char_line8_3> <char_line8_5> <char_line8_7> <char_line8_10> <char_line8_15> <char_line8_16> <char_line8_23> <char_line5_0> <char_line5_3> <char_line5_4> <char_line5_7> <char_line5_8> <char_line5_11> <char_line5_15> <char_line5_16> <char_line5_20> <char_line5_23> <char_line7_0> <char_line7_1> <char_line7_7> <char_line7_8> <char_line7_16> <char_line7_20> <char_line7_23> <char_lineb_0> <char_lineb_2> <char_lineb_3> <char_lineb_5> <char_lineb_7> <char_lineb_10> <char_lineb_15>
+   <char_lineb_16> <char_lineb_19> <char_lineb_21> <char_lineb_23> <char_line9_0> <char_line9_7> <char_line9_10> <char_line9_15> <char_line9_16> <char_line9_19> <char_line9_21> <char_line9_23> <char_linea_0> <char_linea_2> <char_linea_3> <char_linea_7> <char_linea_15> <char_linea_16> <char_linea_19> <char_linea_21> <char_linea_23> <char_linec_0> <char_linec_2> <char_linec_3> <char_linec_5> <char_linec_7> <char_linec_15> <char_linec_16> <char_linec_19> <char_linec_21> <char_linec_23> <char_lined_7> 
+INFO:Xst:2261 - The FF/Latch <char_line5_12> in Unit <VGA> is equivalent to the following 5 FFs/Latches, which will be removed : <char_lineb_12> <char_line9_12> <char_linea_5> <char_lined_0> <char_lined_1> 
+INFO:Xst:2261 - The FF/Latch <char_line8_8> in Unit <VGA> is equivalent to the following 6 FFs/Latches, which will be removed : <char_line8_11> <char_lineb_8> <char_lineb_11> <char_line9_8> <char_line9_11> <char_linea_8> 
+INFO:Xst:2261 - The FF/Latch <char_line3_5> in Unit <VGA> is equivalent to the following FF/Latch, which will be removed : <char_line4_5> 
+INFO:Xst:2261 - The FF/Latch <char_line3_4> in Unit <VGA> is equivalent to the following FF/Latch, which will be removed : <char_line4_4> 
+INFO:Xst:2261 - The FF/Latch <char_lineb_13> in Unit <VGA> is equivalent to the following 2 FFs/Latches, which will be removed : <char_line9_5> <char_line9_13> 
+INFO:Xst:2261 - The FF/Latch <char_line9_9> in Unit <VGA> is equivalent to the following 2 FFs/Latches, which will be removed : <char_linea_9> <char_lined_9> 
+INFO:Xst:2261 - The FF/Latch <char_line5_18> in Unit <VGA> is equivalent to the following FF/Latch, which will be removed : <char_line5_21> 
+INFO:Xst:2261 - The FF/Latch <char_linec_8> in Unit <VGA> is equivalent to the following FF/Latch, which will be removed : <char_linec_11> 
+INFO:Xst:2261 - The FF/Latch <char_line4_9> in Unit <VGA> is equivalent to the following FF/Latch, which will be removed : <char_line5_9> 
+INFO:Xst:2261 - The FF/Latch <char_line3_13> in Unit <VGA> is equivalent to the following FF/Latch, which will be removed : <char_line3_14> 
+INFO:Xst:2261 - The FF/Latch <char_line3_8> in Unit <VGA> is equivalent to the following 2 FFs/Latches, which will be removed : <char_line3_11> <char_line4_8> 
+
+Optimizing unit <digital_piano> ...
+
+Optimizing unit <display> ...
+
+Optimizing unit <vga_char> ...
+
+Optimizing unit <song1> ...
+
+Optimizing unit <song2> ...
+
+Optimizing unit <song3> ...
+
+Optimizing unit <song> ...
+
+Optimizing unit <keyboard> ...
+
+Optimizing unit <VGA> ...
+WARNING:Xst:1710 - FF/Latch <char_line7_4> (without init value) has a constant value of 1 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line7_5> (without init value) has a constant value of 1 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line7_22> (without init value) has a constant value of 1 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <char_lined_13> in Unit <VGA> is equivalent to the following FF/Latch, which will be removed : <char_lined_14> 
+INFO:Xst:2261 - The FF/Latch <char_line3_9> in Unit <VGA> is equivalent to the following FF/Latch, which will be removed : <char_line3_10> 
+INFO:Xst:2261 - The FF/Latch <char_line8_14> in Unit <VGA> is equivalent to the following FF/Latch, which will be removed : <char_linea_11> 
+INFO:Xst:2261 - The FF/Latch <char_lineb_14> in Unit <VGA> is equivalent to the following 2 FFs/Latches, which will be removed : <char_linea_14> <char_lined_8> 
+INFO:Xst:2261 - The FF/Latch <char_line8_18> in Unit <VGA> is equivalent to the following FF/Latch, which will be removed : <char_line8_20> 
+INFO:Xst:2261 - The FF/Latch <char_line8_22> in Unit <VGA> is equivalent to the following 12 FFs/Latches, which will be removed : <char_lineb_22> <char_line9_22> <char_linea_22> <char_lined_2> <char_lined_3> <char_lined_4> <char_lined_5> <char_lined_11> <char_lined_17> <char_lined_18> <char_lined_22> <char_lined_23> 
+INFO:Xst:2261 - The FF/Latch <char_line3_21> in Unit <VGA> is equivalent to the following 2 FFs/Latches, which will be removed : <char_line3_22> <char_line4_22> 
+INFO:Xst:2261 - The FF/Latch <char_line8_4> in Unit <VGA> is equivalent to the following 4 FFs/Latches, which will be removed : <char_line7_6> <char_lineb_4> <char_linea_4> <char_lined_6> 
+INFO:Xst:2261 - The FF/Latch <char_line9_6> in Unit <VGA> is equivalent to the following FF/Latch, which will be removed : <char_linea_6> 
+INFO:Xst:2261 - The FF/Latch <char_lineb_18> in Unit <VGA> is equivalent to the following 7 FFs/Latches, which will be removed : <char_lineb_20> <char_line9_18> <char_line9_20> <char_linea_18> <char_linea_20> <char_linec_18> <char_linec_20> 
+INFO:Xst:2261 - The FF/Latch <char_line4_18> in Unit <VGA> is equivalent to the following FF/Latch, which will be removed : <char_line4_21> 
+INFO:Xst:2261 - The FF/Latch <char_line8_12> in Unit <VGA> is equivalent to the following 2 FFs/Latches, which will be removed : <char_line9_2> <char_line9_3> 
+INFO:Xst:2261 - The FF/Latch <char_line8_1> in Unit <VGA> is equivalent to the following 3 FFs/Latches, which will be removed : <char_line8_6> <char_lineb_6> <char_line9_1> 
+INFO:Xst:2261 - The FF/Latch <char_lineb_1> in Unit <VGA> is equivalent to the following FF/Latch, which will be removed : <char_linea_1> 
+INFO:Xst:2261 - The FF/Latch <char_line7_18> in Unit <VGA> is equivalent to the following 2 FFs/Latches, which will be removed : <char_line7_19> <char_line7_21> 
+INFO:Xst:2261 - The FF/Latch <char_line8_17> in Unit <VGA> is equivalent to the following 6 FFs/Latches, which will be removed : <char_line8_19> <char_line8_21> <char_lineb_17> <char_line9_17> <char_linea_17> <char_lined_16> 
+INFO:Xst:2261 - The FF/Latch <char_line7_9> in Unit <VGA> is equivalent to the following 2 FFs/Latches, which will be removed : <char_line7_10> <char_line7_11> 
+INFO:Xst:2261 - The FF/Latch <char_line7_15> in Unit <VGA> is equivalent to the following FF/Latch, which will be removed : <char_lined_15> 
+INFO:Xst:2261 - The FF/Latch <char_line3_17> in Unit <VGA> is equivalent to the following FF/Latch, which will be removed : <char_line3_18> 
+INFO:Xst:2261 - The FF/Latch <char_line7_2> in Unit <VGA> is equivalent to the following FF/Latch, which will be removed : <char_line7_3> 
+WARNING:Xst:1710 - FF/Latch <char_line7_4> (without init value) has a constant value of 1 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line7_5> (without init value) has a constant value of 1 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <char_line7_22> (without init value) has a constant value of 1 in block <VGA>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <char_line3_9> in Unit <VGA> is equivalent to the following FF/Latch, which will be removed : <char_line3_10> 
+INFO:Xst:2261 - The FF/Latch <char_lined_13> in Unit <VGA> is equivalent to the following FF/Latch, which will be removed : <char_lined_14> 
+INFO:Xst:2261 - The FF/Latch <char_line8_14> in Unit <VGA> is equivalent to the following FF/Latch, which will be removed : <char_linea_11> 
+INFO:Xst:2261 - The FF/Latch <char_lineb_14> in Unit <VGA> is equivalent to the following 2 FFs/Latches, which will be removed : <char_linea_14> <char_lined_8> 
+INFO:Xst:2261 - The FF/Latch <char_line8_18> in Unit <VGA> is equivalent to the following FF/Latch, which will be removed : <char_line8_20> 
+INFO:Xst:2261 - The FF/Latch <char_line8_22> in Unit <VGA> is equivalent to the following 12 FFs/Latches, which will be removed : <char_lineb_22> <char_line9_22> <char_linea_22> <char_lined_2> <char_lined_3> <char_lined_4> <char_lined_5> <char_lined_11> <char_lined_17> <char_lined_18> <char_lined_22> <char_lined_23> 
+INFO:Xst:2261 - The FF/Latch <char_line3_21> in Unit <VGA> is equivalent to the following 2 FFs/Latches, which will be removed : <char_line3_22> <char_line4_22> 
+INFO:Xst:2261 - The FF/Latch <char_line8_4> in Unit <VGA> is equivalent to the following 4 FFs/Latches, which will be removed : <char_line7_6> <char_lineb_4> <char_linea_4> <char_lined_6> 
+INFO:Xst:2261 - The FF/Latch <char_line9_6> in Unit <VGA> is equivalent to the following FF/Latch, which will be removed : <char_linea_6> 
+INFO:Xst:2261 - The FF/Latch <char_lineb_18> in Unit <VGA> is equivalent to the following 7 FFs/Latches, which will be removed : <char_lineb_20> <char_line9_18> <char_line9_20> <char_linea_18> <char_linea_20> <char_linec_18> <char_linec_20> 
+INFO:Xst:2261 - The FF/Latch <char_line4_18> in Unit <VGA> is equivalent to the following FF/Latch, which will be removed : <char_line4_21> 
+INFO:Xst:2261 - The FF/Latch <char_line8_12> in Unit <VGA> is equivalent to the following 2 FFs/Latches, which will be removed : <char_line9_2> <char_line9_3> 
+INFO:Xst:2261 - The FF/Latch <char_line8_1> in Unit <VGA> is equivalent to the following 3 FFs/Latches, which will be removed : <char_line8_6> <char_lineb_6> <char_line9_1> 
+INFO:Xst:2261 - The FF/Latch <char_lineb_1> in Unit <VGA> is equivalent to the following FF/Latch, which will be removed : <char_linea_1> 
+INFO:Xst:2261 - The FF/Latch <char_line7_18> in Unit <VGA> is equivalent to the following 2 FFs/Latches, which will be removed : <char_line7_19> <char_line7_21> 
+INFO:Xst:2261 - The FF/Latch <char_line8_17> in Unit <VGA> is equivalent to the following 6 FFs/Latches, which will be removed : <char_line8_19> <char_line8_21> <char_lineb_17> <char_line9_17> <char_linea_17> <char_lined_16> 
+INFO:Xst:2261 - The FF/Latch <char_line7_9> in Unit <VGA> is equivalent to the following 2 FFs/Latches, which will be removed : <char_line7_10> <char_line7_11> 
+INFO:Xst:2261 - The FF/Latch <char_line7_15> in Unit <VGA> is equivalent to the following FF/Latch, which will be removed : <char_lined_15> 
+INFO:Xst:2261 - The FF/Latch <char_line3_17> in Unit <VGA> is equivalent to the following FF/Latch, which will be removed : <char_line3_18> 
+INFO:Xst:2261 - The FF/Latch <char_line7_2> in Unit <VGA> is equivalent to the following FF/Latch, which will be removed : <char_line7_3> 
+
+Optimizing unit <piano> ...
+INFO:Xst:2399 - RAMs <m1/m1/m1/Mram_mem22>, <m1/m1/m1/Mram_mem30> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <m1/m1/m1/Mram_mem21>, <m1/m1/m1/Mram_mem29> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <m1/m1/m1/Mram_mem23>, <m1/m1/m1/Mram_mem31> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <m1/m1/m1/Mram_mem24>, <m1/m1/m1/Mram_mem32> are equivalent, second RAM is removed
+
+Mapping all equations...
+Building and optimizing final netlist ...
+INFO:Xst:2261 - The FF/Latch <m1/m3/char_linee_0> in Unit <digital_piano> is equivalent to the following FF/Latch, which will be removed : <m1/m3/char_line0_0> 
+Found area constraint ratio of 100 (+ 5) on block digital_piano, actual ratio is 85.
+FlipFlop m2/m3/state_0 has been replicated 1 time(s)
+FlipFlop m2/m3/state_1 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 475
+ Flip-Flops                                            : 475
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : digital_piano.ngr
+Top Level Output File Name         : digital_piano
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 35
+
+Cell Usage :
+# BELS                             : 2071
+#      GND                         : 1
+#      INV                         : 52
+#      LUT1                        : 207
+#      LUT2                        : 122
+#      LUT2_D                      : 15
+#      LUT2_L                      : 12
+#      LUT3                        : 240
+#      LUT3_D                      : 27
+#      LUT3_L                      : 25
+#      LUT4                        : 634
+#      LUT4_D                      : 56
+#      LUT4_L                      : 97
+#      MUXCY                       : 289
+#      MUXF5                       : 71
+#      MUXF6                       : 5
+#      MUXF7                       : 1
+#      VCC                         : 1
+#      XORCY                       : 216
+# FlipFlops/Latches                : 475
+#      FD                          : 55
+#      FDC                         : 12
+#      FDCE                        : 11
+#      FDE                         : 32
+#      FDP                         : 4
+#      FDPE                        : 4
+#      FDR                         : 206
+#      FDRE                        : 15
+#      FDRS                        : 10
+#      FDS                         : 126
+# RAMS                             : 28
+#      RAM32X1S                    : 28
+# Clock Buffers                    : 6
+#      BUFG                        : 4
+#      BUFGP                       : 2
+# IO Buffers                       : 32
+#      IBUF                        : 9
+#      OBUF                        : 23
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                      794  out of    960    82%  
+ Number of Slice Flip Flops:            475  out of   1920    24%  
+ Number of 4 input LUTs:               1543  out of   1920    80%  
+    Number used as logic:              1487
+    Number used as RAMs:                 56
+ Number of IOs:                          35
+ Number of bonded IOBs:                  34  out of     83    40%  
+ Number of GCLKs:                         6  out of     24    25%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+----------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)      | Load  |
+-----------------------------------+----------------------------+-------+
+inclk                              | BUFGP                      | 5     |
+m2/clk1(m2/Mmux_clk2_f5:O)         | BUFG(*)(m2/m3/state_0)     | 90    |
+clk_5MHz1                          | BUFG                       | 299   |
+select                             | BUFGP                      | 2     |
+m1/m3/m/clk_25m1                   | BUFG                       | 70    |
+m1/m1/m1/clk_16Hz1                 | BUFG                       | 35    |
+m1/carry(m1/carry30:O)             | NONE(*)(m1/beep_r)         | 1     |
+m1/m1/ZHJS                         | NONE(m1/m1/DD_keypressed/Q)| 1     |
+-----------------------------------+----------------------------+-------+
+(*) These 2 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+---------------------------------------------+------------------------+-------+
+Control Signal                               | Buffer(FF name)        | Load  |
+---------------------------------------------+------------------------+-------+
+m1/m3/m/rst_n_inv(m1/m3/m/rst_n_inv1_INV_0:O)| NONE(m1/m3/m/D)        | 31    |
+---------------------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 9.670ns (Maximum Frequency: 103.414MHz)
+   Minimum input arrival time before clock: 6.943ns
+   Maximum output required time after clock: 6.183ns
+   Maximum combinational path delay: 6.897ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'inclk'
+  Clock period: 2.952ns (frequency: 338.765MHz)
+  Total number of paths / destination ports: 20 / 9
+-------------------------------------------------------------------------
+Delay:               2.952ns (Levels of Logic = 1)
+  Source:            cnt_2 (FF)
+  Destination:       cnt_0 (FF)
+  Source Clock:      inclk rising
+  Destination Clock: inclk rising
+
+  Data Path: cnt_2 to cnt_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.514   0.532  cnt_2 (cnt_2)
+     LUT3:I0->O            4   0.612   0.499  cnt_not00011 (cnt_not0001)
+     FDR:R                     0.795          cnt_0
+    ----------------------------------------
+    Total                      2.952ns (1.921ns logic, 1.031ns route)
+                                       (65.1% logic, 34.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'm2/clk1'
+  Clock period: 9.670ns (frequency: 103.414MHz)
+  Total number of paths / destination ports: 7248 / 166
+-------------------------------------------------------------------------
+Delay:               9.670ns (Levels of Logic = 7)
+  Source:            m2/m3/state_4 (FF)
+  Destination:       m2/m3/med_1 (FF)
+  Source Clock:      m2/clk1 rising
+  Destination Clock: m2/clk1 rising
+
+  Data Path: m2/m3/state_4 to m2/m3/med_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             37   0.514   1.077  m2/m3/state_4 (m2/m3/state_4)
+     LUT4_D:I3->O         17   0.612   0.962  m2/m3/old_state_6_cmp_eq000017 (m2/m3/old_state_6_cmp_eq000017)
+     LUT2:I1->O           25   0.612   1.074  m2/m3/old_state_6_cmp_eq000018 (m2/m3/old_state_6_cmp_eq0000)
+     LUT4_D:I3->LO         1   0.612   0.103  m2/m3/_old_state_6<5>1_1 (N983)
+     LUT4:I3->O            3   0.612   0.454  m2/m3/med_or0000178 (m2/m3/med_or0000178)
+     LUT4:I3->O            1   0.612   0.000  m2/m3/med_or0000163_SW0_F (N706)
+     MUXF5:I0->O           1   0.278   0.360  m2/m3/med_or0000163_SW0 (N304)
+     LUT4:I3->O            2   0.612   0.380  m2/m3/med_or0000208 (m2/m3/med_or0000)
+     FDS:S                     0.795          m2/m3/med_1
+    ----------------------------------------
+    Total                      9.670ns (5.259ns logic, 4.411ns route)
+                                       (54.4% logic, 45.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_5MHz1'
+  Clock period: 9.520ns (frequency: 105.037MHz)
+  Total number of paths / destination ports: 40232 / 547
+-------------------------------------------------------------------------
+Delay:               9.520ns (Levels of Logic = 7)
+  Source:            m1/origin_6 (FF)
+  Destination:       m1/m2/cathodes_r_3 (FF)
+  Source Clock:      clk_5MHz1 rising
+  Destination Clock: clk_5MHz1 rising
+
+  Data Path: m1/origin_6 to m1/m2/cathodes_r_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              18   0.514   1.060  m1/origin_6 (m1/origin_6)
+     LUT4_D:I0->O          8   0.612   0.646  m1/m3/char_line0_cmp_eq001311 (m1/m3/N28)
+     LUT4:I3->O           16   0.612   0.882  m1/m3/char_line0_cmp_eq00132 (m1/m2/cathodes_r_cmp_eq0019)
+     LUT4:I3->O            1   0.612   0.360  m1/m2/cathodes_r_or0007133_SW0 (N292)
+     LUT4:I3->O            3   0.612   0.454  m1/m2/cathodes_r_or0007133 (m1/m2/N4)
+     LUT4:I3->O            1   0.612   0.000  m1/m2/cathodes_r_mux0000<5>1164_SW0_F (N708)
+     MUXF5:I0->O           1   0.278   0.360  m1/m2/cathodes_r_mux0000<5>1164_SW0 (N453)
+     LUT4:I3->O            4   0.612   0.499  m1/m2/cathodes_r_mux0000<3>2 (m1/m2/N11)
+     FDS:S                     0.795          m1/m2/cathodes_r_3
+    ----------------------------------------
+    Total                      9.520ns (5.259ns logic, 4.261ns route)
+                                       (55.2% logic, 44.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'select'
+  Clock period: 1.962ns (frequency: 509.697MHz)
+  Total number of paths / destination ports: 3 / 2
+-------------------------------------------------------------------------
+Delay:               1.962ns (Levels of Logic = 1)
+  Source:            m2/flag_0 (FF)
+  Destination:       m2/flag_1 (FF)
+  Source Clock:      select falling
+  Destination Clock: select falling
+
+  Data Path: m2/flag_0 to m2/flag_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              4   0.514   0.568  m2/flag_0 (m2/flag_0)
+     LUT2:I1->O            1   0.612   0.000  m2/Mcount_flag_xor<1>11 (m2/Result<1>1)
+     FD:D                      0.268          m2/flag_1
+    ----------------------------------------
+    Total                      1.962ns (1.394ns logic, 0.568ns route)
+                                       (71.1% logic, 28.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'm1/m3/m/clk_25m1'
+  Clock period: 7.741ns (frequency: 129.176MHz)
+  Total number of paths / destination ports: 2783 / 144
+-------------------------------------------------------------------------
+Delay:               7.741ns (Levels of Logic = 5)
+  Source:            m1/m3/m/x_cnt_3 (FF)
+  Destination:       m1/m3/m/col_4 (FF)
+  Source Clock:      m1/m3/m/clk_25m1 rising
+  Destination Clock: m1/m3/m/clk_25m1 rising
+
+  Data Path: m1/m3/m/x_cnt_3 to m1/m3/m/col_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              5   0.514   0.690  m1/m3/m/x_cnt_3 (m1/m3/m/x_cnt_3)
+     LUT2_L:I0->LO         1   0.612   0.169  m1/m3/m/valid_r_mux00002_SW0 (N101)
+     LUT4:I1->O            2   0.612   0.383  m1/m3/m/valid_r_mux00002 (m1/m3/m/N35)
+     LUT4:I3->O           13   0.612   0.839  m1/m3/m/x_cnt_cmp_eq0000 (m1/m3/m/x_cnt_cmp_eq0000)
+     LUT4:I3->O            7   0.612   0.754  m1/m3/m/col_or00001 (m1/m3/m/c_not0001)
+     LUT4:I0->O            5   0.612   0.538  m1/m3/m/col_or00002 (m1/m3/m/col_or0000)
+     FDRE:R                    0.795          m1/m3/m/col_0
+    ----------------------------------------
+    Total                      7.741ns (4.369ns logic, 3.372ns route)
+                                       (56.4% logic, 43.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'm1/m1/m1/clk_16Hz1'
+  Clock period: 3.785ns (frequency: 264.175MHz)
+  Total number of paths / destination ports: 224 / 175
+-------------------------------------------------------------------------
+Delay:               3.785ns (Levels of Logic = 2)
+  Source:            m1/m1/m1/count_2 (FF)
+  Destination:       m1/m1/m1/count_4 (FF)
+  Source Clock:      m1/m1/m1/clk_16Hz1 rising
+  Destination Clock: m1/m1/m1/clk_16Hz1 rising
+
+  Data Path: m1/m1/m1/count_2 to m1/m1/m1/count_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q            116   0.514   1.247  m1/m1/m1/count_2 (m1/m1/m1/count_2)
+     LUT3:I0->O            2   0.612   0.532  m1/m1/m1/Mcount_count_xor<3>111 (m1/m1/N311)
+     LUT3:I0->O            1   0.612   0.000  m1/m1/m1/Mcount_count_xor<4>11 (m1/m1/Result<4>)
+     FDE:D                     0.268          m1/m1/m1/count_4
+    ----------------------------------------
+    Total                      3.785ns (2.006ns logic, 1.779ns route)
+                                       (53.0% logic, 47.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'm1/carry'
+  Clock period: 1.689ns (frequency: 592.084MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.689ns (Levels of Logic = 0)
+  Source:            m1/beep_r (FF)
+  Destination:       m1/beep_r (FF)
+  Source Clock:      m1/carry rising
+  Destination Clock: m1/carry rising
+
+  Data Path: m1/beep_r to m1/beep_r
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.514   0.380  m1/beep_r (m1/beep_r)
+     FDR:R                     0.795          m1/beep_r
+    ----------------------------------------
+    Total                      1.689ns (1.309ns logic, 0.380ns route)
+                                       (77.5% logic, 22.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'm1/m3/m/clk_25m1'
+  Total number of paths / destination ports: 10 / 10
+-------------------------------------------------------------------------
+Offset:              3.967ns (Levels of Logic = 2)
+  Source:            reset (PAD)
+  Destination:       m1/m3/m/row_4 (FF)
+  Destination Clock: m1/m3/m/clk_25m1 rising
+
+  Data Path: reset to m1/m3/m/row_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.106   0.380  reset_IBUF (reset_IBUF)
+     INV:I->O             36   0.612   1.074  m1/m3/m/rst_n_inv1_INV_0 (m1/m3/m/rst_n_inv)
+     FDRE:R                    0.795          m1/m3/m/row_0
+    ----------------------------------------
+    Total                      3.967ns (2.513ns logic, 1.454ns route)
+                                       (63.3% logic, 36.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_5MHz1'
+  Total number of paths / destination ports: 277 / 24
+-------------------------------------------------------------------------
+Offset:              6.943ns (Levels of Logic = 6)
+  Source:            replay (PAD)
+  Destination:       m1/origin_11 (FF)
+  Destination Clock: clk_5MHz1 rising
+
+  Data Path: replay to m1/origin_11
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            14   1.106   1.002  replay_IBUF (replay_IBUF)
+     LUT2:I0->O            1   0.612   0.000  m1/m1/out<4>199_SW1_F (N716)
+     MUXF5:I0->O           1   0.278   0.360  m1/m1/out<4>199_SW1 (N592)
+     LUT4_D:I3->O         24   0.612   1.094  m1/m1/out<4>2 (m1/key_out<4>)
+     LUT4:I2->O            1   0.612   0.387  m1/origin_mux0000<13>_SW0 (N157)
+     LUT4:I2->O            1   0.612   0.000  m1/origin_mux0000<13> (m1/origin_mux0000<13>)
+     FD:D                      0.268          m1/origin_0
+    ----------------------------------------
+    Total                      6.943ns (4.100ns logic, 2.843ns route)
+                                       (59.1% logic, 40.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'm1/m1/m1/clk_16Hz1'
+  Total number of paths / destination ports: 35 / 35
+-------------------------------------------------------------------------
+Offset:              3.606ns (Levels of Logic = 2)
+  Source:            record (PAD)
+  Destination:       m1/m1/m1/Mram_mem1 (RAM)
+  Destination Clock: m1/m1/m1/clk_16Hz1 rising
+
+  Data Path: record to m1/m1/m1/Mram_mem1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            11   1.106   0.945  record_IBUF (record_IBUF)
+     LUT3:I0->O            7   0.612   0.602  m1/m1/write_ctrl (m1/m1/write_ctrl)
+     RAM32X1S:WE               0.341          m1/m1/m1/Mram_mem1
+    ----------------------------------------
+    Total                      3.606ns (2.059ns logic, 1.547ns route)
+                                       (57.1% logic, 42.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'm1/m3/m/clk_25m1'
+  Total number of paths / destination ports: 10 / 10
+-------------------------------------------------------------------------
+Offset:              4.326ns (Levels of Logic = 1)
+  Source:            m1/m3/m/vga_rgb_0 (FF)
+  Destination:       vga_b<1> (PAD)
+  Source Clock:      m1/m3/m/clk_25m1 rising
+
+  Data Path: m1/m3/m/vga_rgb_0 to vga_b<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              8   0.514   0.643  m1/m3/m/vga_rgb_0 (m1/m3/m/vga_rgb_0)
+     OBUF:I->O                 3.169          vga_b_1_OBUF (vga_b<1>)
+    ----------------------------------------
+    Total                      4.326ns (3.683ns logic, 0.643ns route)
+                                       (85.1% logic, 14.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_5MHz1'
+  Total number of paths / destination ports: 14 / 12
+-------------------------------------------------------------------------
+Offset:              6.183ns (Levels of Logic = 3)
+  Source:            m2/m1/beep_r (FF)
+  Destination:       out_l (PAD)
+  Source Clock:      clk_5MHz1 rising
+
+  Data Path: m2/m1/beep_r to out_l
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.514   0.410  m2/m1/beep_r (m2/m1/beep_r)
+     LUT4:I2->O            1   0.612   0.509  m2/beep_r12 (m2/beep_r12)
+     LUT4:I0->O            1   0.612   0.357  m2/beep_r62 (out_l_OBUF)
+     OBUF:I->O                 3.169          out_l_OBUF (out_l)
+    ----------------------------------------
+    Total                      6.183ns (4.907ns logic, 1.276ns route)
+                                       (79.4% logic, 20.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'm1/carry'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.063ns (Levels of Logic = 1)
+  Source:            m1/beep_r (FF)
+  Destination:       out_r (PAD)
+  Source Clock:      m1/carry rising
+
+  Data Path: m1/beep_r to out_r
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.514   0.380  m1/beep_r (m1/beep_r)
+     OBUF:I->O                 3.169          out_r_OBUF (out_r)
+    ----------------------------------------
+    Total                      4.063ns (3.683ns logic, 0.380ns route)
+                                       (90.6% logic, 9.4% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 7 / 1
+-------------------------------------------------------------------------
+Delay:               6.897ns (Levels of Logic = 4)
+  Source:            key<1> (PAD)
+  Destination:       out_l (PAD)
+
+  Data Path: key<1> to out_l
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.106   0.532  key_1_IBUF (key_1_IBUF)
+     LUT4:I0->O            1   0.612   0.509  m2/beep_r12 (m2/beep_r12)
+     LUT4:I0->O            1   0.612   0.357  m2/beep_r62 (out_l_OBUF)
+     OBUF:I->O                 3.169          out_l_OBUF (out_l)
+    ----------------------------------------
+    Total                      6.897ns (5.499ns logic, 1.398ns route)
+                                       (79.7% logic, 20.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 34.00 secs
+Total CPU time to Xst completion: 34.06 secs
+ 
+--> 
+
+Total memory usage is 338352 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   77 (   0 filtered)
+Number of infos    :   67 (   0 filtered)
+

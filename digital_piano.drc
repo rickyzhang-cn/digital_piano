@@ -1,0 +1,14 @@
+Release 14.2 Drc P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Mon Jul 01 11:15:26 2013
+
+drc -z digital_piano.ncd digital_piano.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net m1/carry is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:367 - The signal <start_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+DRC detected 0 errors and 2 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

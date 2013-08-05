@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="905" delta="new" >&quot;<arg fmt="%s" index="1">recordmode.v</arg>&quot; line <arg fmt="%d" index="2">61</arg>: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;mem&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="old" >&quot;<arg fmt="%s" index="1">vga_char.v</arg>&quot; line <arg fmt="%d" index="2">247</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="old" >&quot;<arg fmt="%s" index="1">vga_char.v</arg>&quot; line <arg fmt="%d" index="2">248</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="old" >&quot;<arg fmt="%s" index="1">vga_char.v</arg>&quot; line <arg fmt="%d" index="2">249</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="old" >&quot;<arg fmt="%s" index="1">vga_char.v</arg>&quot; line <arg fmt="%d" index="2">250</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="old" >&quot;<arg fmt="%s" index="1">vga_char.v</arg>&quot; line <arg fmt="%d" index="2">251</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="old" >&quot;<arg fmt="%s" index="1">vga_char.v</arg>&quot; line <arg fmt="%d" index="2">252</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="old" >&quot;<arg fmt="%s" index="1">vga_char.v</arg>&quot; line <arg fmt="%d" index="2">253</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="old" >&quot;<arg fmt="%s" index="1">vga_char.v</arg>&quot; line <arg fmt="%d" index="2">254</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="old" >&quot;<arg fmt="%s" index="1">vga_char.v</arg>&quot; line <arg fmt="%d" index="2">255</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="old" >&quot;<arg fmt="%s" index="1">vga_char.v</arg>&quot; line <arg fmt="%d" index="2">256</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="old" >&quot;<arg fmt="%s" index="1">vga_char.v</arg>&quot; line <arg fmt="%d" index="2">257</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="old" >&quot;<arg fmt="%s" index="1">vga_char.v</arg>&quot; line <arg fmt="%d" index="2">258</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="old" >&quot;<arg fmt="%s" index="1">vga_char.v</arg>&quot; line <arg fmt="%d" index="2">259</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="old" >&quot;<arg fmt="%s" index="1">vga_char.v</arg>&quot; line <arg fmt="%d" index="2">260</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="old" >&quot;<arg fmt="%s" index="1">vga_char.v</arg>&quot; line <arg fmt="%d" index="2">261</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="warning" file="Xst" num="2725" delta="old" >&quot;<arg fmt="%s" index="1">vga_char.v</arg>&quot; line <arg fmt="%d" index="2">262</arg>: Size mismatch between case item and case selector.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">high</arg>&gt; in unit &lt;<arg fmt="%s" index="2">song2</arg>&gt; has a constant value of <arg fmt="%s" index="3">0000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">replay</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">tmp&lt;11:9&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">tmp&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">start</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">vga_rgb_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">m</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;vga_rgb_1&gt; &lt;vga_rgb_2&gt; &lt;vga_rgb_3&gt; &lt;vga_rgb_4&gt; &lt;vga_rgb_5&gt; &lt;vga_rgb_6&gt; &lt;vga_rgb_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line4_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">m3</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">113 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line4_3&gt; &lt;char_line4_7&gt; &lt;char_line4_11&gt; &lt;char_line4_15&gt; &lt;char_line4_16&gt; &lt;char_line4_20&gt; &lt;char_line4_23&gt; &lt;char_line0_0&gt; &lt;char_line0_3&gt; &lt;char_line0_4&gt; &lt;char_line0_7&gt; &lt;char_line0_8&gt; &lt;char_line0_11&gt; &lt;char_line0_12&gt; &lt;char_line0_15&gt; &lt;char_line0_16&gt; &lt;char_line0_19&gt; &lt;char_line0_20&gt; &lt;char_line0_23&gt; &lt;char_line3_0&gt; &lt;char_line3_3&gt; &lt;char_line3_7&gt; &lt;char_line3_15&gt; &lt;char_line3_20&gt; &lt;char_line8_0&gt; &lt;char_line8_2&gt; &lt;char_line8_3&gt; &lt;char_line8_5&gt; &lt;char_line8_7&gt; &lt;char_line8_10&gt; &lt;char_line8_15&gt; &lt;char_line8_16&gt; &lt;char_line8_23&gt; &lt;char_line5_0&gt; &lt;char_line5_3&gt; &lt;char_line5_4&gt; &lt;char_line5_7&gt; &lt;char_line5_8&gt; &lt;char_line5_11&gt; &lt;char_line5_15&gt; &lt;char_line5_16&gt; &lt;char_line5_20&gt; &lt;char_line5_23&gt; &lt;char_line7_0&gt; &lt;char_line7_1&gt; &lt;char_line7_7&gt; &lt;char_line7_8&gt; &lt;char_line7_16&gt; &lt;char_line7_20&gt; &lt;char_line7_23&gt; &lt;char_lineb_0&gt; &lt;char_lineb_2&gt; &lt;char_lineb_3&gt; &lt;char_lineb_5&gt; &lt;char_lineb_7&gt; &lt;char_lineb_10&gt; &lt;char_lineb_15&gt; &lt;char_lineb_16&gt; &lt;char_lineb_19&gt; &lt;char_lineb_21&gt; &lt;char_lineb_23&gt; &lt;char_line9_0&gt; &lt;char_line9_7&gt; &lt;char_line9_10&gt; &lt;char_line9_15&gt; &lt;char_line9_16&gt; &lt;char_line9_19&gt; &lt;char_line9_21&gt; &lt;char_line9_23&gt; &lt;char_linea_0&gt; &lt;char_linea_2&gt; &lt;char_linea_3&gt; &lt;char_linea_7&gt; &lt;char_linea_15&gt; &lt;char_linea_16&gt; &lt;char_linea_19&gt; &lt;char_linea_21&gt; &lt;char_linea_23&gt; &lt;char_linee_0&gt; &lt;char_linee_1&gt; &lt;char_linee_2&gt; &lt;char_linee_3&gt; &lt;char_linee_4&gt; &lt;char_linee_5&gt; &lt;char_linee_6&gt; &lt;char_linee_7&gt; &lt;char_linee_8&gt; &lt;char_linee_9&gt; &lt;char_linee_10&gt; &lt;char_linee_11&gt; &lt;char_linee_12&gt; &lt;char_linee_13&gt; &lt;char_linee_14&gt; &lt;char_linee_15&gt; &lt;char_linee_16&gt; &lt;char_linee_17&gt; &lt;char_linee_18&gt; &lt;char_linee_19&gt; &lt;char_linee_20&gt; &lt;char_linee_21&gt; &lt;char_linee_22&gt; &lt;char_linee_23&gt; &lt;char_linec_0&gt; &lt;char_linec_2&gt; &lt;char_linec_3&gt; &lt;char_linec_5&gt; &lt;char_linec_7&gt; &lt;char_linec_15&gt; &lt;char_linec_16&gt; &lt;char_linec_19&gt; &lt;char_linec_21&gt; &lt;char_linec_23&gt; &lt;char_lined_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line4_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">m3</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">27 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line4_2&gt; &lt;char_line4_6&gt; &lt;char_line4_10&gt; &lt;char_line4_13&gt; &lt;char_line4_14&gt; &lt;char_line0_1&gt; &lt;char_line0_2&gt; &lt;char_line0_5&gt; &lt;char_line0_6&gt; &lt;char_line0_9&gt; &lt;char_line0_10&gt; &lt;char_line0_13&gt; &lt;char_line0_14&gt; &lt;char_line0_17&gt; &lt;char_line0_18&gt; &lt;char_line0_21&gt; &lt;char_line0_22&gt; &lt;char_line3_1&gt; &lt;char_line3_2&gt; &lt;char_line3_6&gt; &lt;char_line5_1&gt; &lt;char_line5_2&gt; &lt;char_line5_5&gt; &lt;char_line5_6&gt; &lt;char_line5_10&gt; &lt;char_line5_13&gt; &lt;char_line5_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">low_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">m1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;low_3&gt; &lt;med_3&gt; &lt;high_0&gt; &lt;high_1&gt; &lt;high_2&gt; &lt;high_3&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">char_line4_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">m3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">origin_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">m1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">origin_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">m1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">origin_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">m1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">low_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">m1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">origin_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">m2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">low_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">m2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">med_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">m2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">origin_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">m3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">high_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">m3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">low</arg>&lt;<arg fmt="%d" index="2">3</arg>:<arg fmt="%d" index="3">3</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">song1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">med</arg>&lt;<arg fmt="%d" index="2">3</arg>:<arg fmt="%d" index="3">3</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">song1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">high</arg>&lt;<arg fmt="%d" index="2">3</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">song1</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_mem</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">origin_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">song1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">origin_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">song1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">origin_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">song1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">low_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">song1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">origin_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">song2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">low_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">song2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">med_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">song2</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">origin_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">song3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">high_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">song3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">char_line5_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line5_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line5_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line5_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line5_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line5_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line5_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line4_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line4_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line4_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line4_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line4_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line4_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line3_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line3_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line3_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line0_22</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line0_21</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line0_18</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line0_17</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line0_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line0_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line0_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line0_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line0_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line0_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line0_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line0_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">vga_rgb_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vga_char</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;vga_rgb_1&gt; &lt;vga_rgb_2&gt; &lt;vga_rgb_3&gt; &lt;vga_rgb_4&gt; &lt;vga_rgb_5&gt; &lt;vga_rgb_6&gt; &lt;vga_rgb_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">low_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">song1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;low_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_linee_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">23 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_linee_1&gt; &lt;char_linee_2&gt; &lt;char_linee_3&gt; &lt;char_linee_4&gt; &lt;char_linee_5&gt; &lt;char_linee_6&gt; &lt;char_linee_7&gt; &lt;char_linee_8&gt; &lt;char_linee_9&gt; &lt;char_linee_10&gt; &lt;char_linee_11&gt; &lt;char_linee_12&gt; &lt;char_linee_13&gt; &lt;char_linee_14&gt; &lt;char_linee_15&gt; &lt;char_linee_16&gt; &lt;char_linee_17&gt; &lt;char_linee_18&gt; &lt;char_linee_19&gt; &lt;char_linee_20&gt; &lt;char_linee_21&gt; &lt;char_linee_22&gt; &lt;char_linee_23&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line0_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">89 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line0_3&gt; &lt;char_line0_4&gt; &lt;char_line0_7&gt; &lt;char_line0_8&gt; &lt;char_line0_11&gt; &lt;char_line0_12&gt; &lt;char_line0_15&gt; &lt;char_line0_16&gt; &lt;char_line0_19&gt; &lt;char_line0_20&gt; &lt;char_line0_23&gt; &lt;char_line3_0&gt; &lt;char_line3_3&gt; &lt;char_line3_7&gt; &lt;char_line3_15&gt; &lt;char_line3_20&gt; &lt;char_line4_0&gt; &lt;char_line4_3&gt; &lt;char_line4_7&gt; &lt;char_line4_11&gt; &lt;char_line4_15&gt; &lt;char_line4_16&gt; &lt;char_line4_20&gt; &lt;char_line4_23&gt; &lt;char_line8_0&gt; &lt;char_line8_2&gt; &lt;char_line8_3&gt; &lt;char_line8_5&gt; &lt;char_line8_7&gt; &lt;char_line8_10&gt; &lt;char_line8_15&gt; &lt;char_line8_16&gt; &lt;char_line8_23&gt; &lt;char_line5_0&gt; &lt;char_line5_3&gt; &lt;char_line5_4&gt; &lt;char_line5_7&gt; &lt;char_line5_8&gt; &lt;char_line5_11&gt; &lt;char_line5_15&gt; &lt;char_line5_16&gt; &lt;char_line5_20&gt; &lt;char_line5_23&gt; &lt;char_line7_0&gt; &lt;char_line7_1&gt; &lt;char_line7_7&gt; &lt;char_line7_8&gt; &lt;char_line7_16&gt; &lt;char_line7_20&gt; &lt;char_line7_23&gt; &lt;char_lineb_0&gt; &lt;char_lineb_2&gt; &lt;char_lineb_3&gt; &lt;char_lineb_5&gt; &lt;char_lineb_7&gt; &lt;char_lineb_10&gt; &lt;char_lineb_15&gt; &lt;char_lineb_16&gt; &lt;char_lineb_19&gt; &lt;char_lineb_21&gt; &lt;char_lineb_23&gt; &lt;char_line9_0&gt; &lt;char_line9_7&gt; &lt;char_line9_10&gt; &lt;char_line9_15&gt; &lt;char_line9_16&gt; &lt;char_line9_19&gt; &lt;char_line9_21&gt; &lt;char_line9_23&gt; &lt;char_linea_0&gt; &lt;char_linea_2&gt; &lt;char_linea_3&gt; &lt;char_linea_7&gt; &lt;char_linea_15&gt; &lt;char_linea_16&gt; &lt;char_linea_19&gt; &lt;char_linea_21&gt; &lt;char_linea_23&gt; &lt;char_linec_0&gt; &lt;char_linec_2&gt; &lt;char_linec_3&gt; &lt;char_linec_5&gt; &lt;char_linec_7&gt; &lt;char_linec_15&gt; &lt;char_linec_16&gt; &lt;char_linec_19&gt; &lt;char_linec_21&gt; &lt;char_linec_23&gt; &lt;char_lined_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line5_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_lineb_12&gt; &lt;char_line9_12&gt; &lt;char_linea_5&gt; &lt;char_lined_0&gt; &lt;char_lined_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line8_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line8_11&gt; &lt;char_lineb_8&gt; &lt;char_lineb_11&gt; &lt;char_line9_8&gt; &lt;char_line9_11&gt; &lt;char_linea_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line3_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line4_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line3_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line4_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_lineb_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line9_5&gt; &lt;char_line9_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line9_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_linea_9&gt; &lt;char_lined_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line5_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line5_21&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_linec_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_linec_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line4_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line5_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line3_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line3_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line3_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line3_11&gt; &lt;char_line4_8&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">char_line7_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line7_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line7_22</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_lined_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_lined_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line3_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line3_10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line8_14</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_linea_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_lineb_14</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_linea_14&gt; &lt;char_lined_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line8_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line8_20&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line8_22</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">12 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_lineb_22&gt; &lt;char_line9_22&gt; &lt;char_linea_22&gt; &lt;char_lined_2&gt; &lt;char_lined_3&gt; &lt;char_lined_4&gt; &lt;char_lined_5&gt; &lt;char_lined_11&gt; &lt;char_lined_17&gt; &lt;char_lined_18&gt; &lt;char_lined_22&gt; &lt;char_lined_23&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line3_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line3_22&gt; &lt;char_line4_22&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line8_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line7_6&gt; &lt;char_lineb_4&gt; &lt;char_linea_4&gt; &lt;char_lined_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line9_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_linea_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_lineb_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_lineb_20&gt; &lt;char_line9_18&gt; &lt;char_line9_20&gt; &lt;char_linea_18&gt; &lt;char_linea_20&gt; &lt;char_linec_18&gt; &lt;char_linec_20&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line4_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line4_21&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line8_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line9_2&gt; &lt;char_line9_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line8_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line8_6&gt; &lt;char_lineb_6&gt; &lt;char_line9_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_lineb_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_linea_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line7_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line7_19&gt; &lt;char_line7_21&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line8_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line8_19&gt; &lt;char_line8_21&gt; &lt;char_lineb_17&gt; &lt;char_line9_17&gt; &lt;char_linea_17&gt; &lt;char_lined_16&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line7_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line7_10&gt; &lt;char_line7_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line7_15</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_lined_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line3_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line3_18&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line7_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line7_3&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">char_line7_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line7_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line7_22</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line3_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line3_10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_lined_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_lined_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line8_14</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_linea_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_lineb_14</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_linea_14&gt; &lt;char_lined_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line8_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line8_20&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line8_22</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">12 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_lineb_22&gt; &lt;char_line9_22&gt; &lt;char_linea_22&gt; &lt;char_lined_2&gt; &lt;char_lined_3&gt; &lt;char_lined_4&gt; &lt;char_lined_5&gt; &lt;char_lined_11&gt; &lt;char_lined_17&gt; &lt;char_lined_18&gt; &lt;char_lined_22&gt; &lt;char_lined_23&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line3_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line3_22&gt; &lt;char_line4_22&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line8_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line7_6&gt; &lt;char_lineb_4&gt; &lt;char_linea_4&gt; &lt;char_lined_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line9_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_linea_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_lineb_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_lineb_20&gt; &lt;char_line9_18&gt; &lt;char_line9_20&gt; &lt;char_linea_18&gt; &lt;char_linea_20&gt; &lt;char_linec_18&gt; &lt;char_linec_20&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line4_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line4_21&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line8_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line9_2&gt; &lt;char_line9_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line8_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line8_6&gt; &lt;char_lineb_6&gt; &lt;char_line9_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_lineb_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_linea_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line7_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line7_19&gt; &lt;char_line7_21&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line8_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line8_19&gt; &lt;char_line8_21&gt; &lt;char_lineb_17&gt; &lt;char_line9_17&gt; &lt;char_linea_17&gt; &lt;char_lined_16&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line7_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line7_10&gt; &lt;char_line7_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line7_15</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_lined_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line3_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line3_18&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line7_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line7_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">m1/m1/m1/Mram_mem22</arg>&gt;, &lt;<arg fmt="%s" index="2">m1/m1/m1/Mram_mem30</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">m1/m1/m1/Mram_mem21</arg>&gt;, &lt;<arg fmt="%s" index="2">m1/m1/m1/Mram_mem29</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">m1/m1/m1/Mram_mem23</arg>&gt;, &lt;<arg fmt="%s" index="2">m1/m1/m1/Mram_mem31</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">m1/m1/m1/Mram_mem24</arg>&gt;, &lt;<arg fmt="%s" index="2">m1/m1/m1/Mram_mem32</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">m1/m3/char_linee_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">digital_piano</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;m1/m3/char_line0_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+
