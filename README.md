@@ -7,7 +7,5 @@
    3. 标准VGA接口音符输出
    4. 时长8秒的录音回放功能
    5. 自制模拟放大电路
-+ 如果想了解跟多，请移步：
-http://blog.csdn.net/ricky_hust/article/details/9766385
-这是我在CSDN技术博客上贴出自己的总结报告
++ 如果想了解跟多，请移步: http://blog.csdn.net/ricky_hust/article/details/9766385 这是我在CSDN技术博客上贴出自己的总结报告
 + 项目作者：Cheng Zhang , Ziping Zhao , Jiao Li
